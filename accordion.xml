@@ -16,21 +16,21 @@
         <Body width="92" height="110"/>
         <RangedWeapon reload="1"/>
         <Holdable slots="RightHand+LeftHand,Any" aimable="false" aimpos="50,-20" handle1="-20,0" handle2="-10,0" swingamount="50,0" swingspeed="0.5" swingwhenusing="true" msg="ItemMsgPickUpSelect">
-          <StatusEffect type="OnUse" targettype="Contained">
-            <Conditional hastag="eq accordionnotes"/>
-              <Use/>
-          </StatusEffect>
-          <StatusEffect type="Always" targettype="This" condition="-1"/>
-          <StatusEffect type="Always" targettype="This" condition="50" setvalue="true">
-            <Conditional condition="lt 20"/>
-          </StatusEffect>
-          <StatusEffect type="Always" targettype="This" condition="100" setvalue="true">
-            <RequiredItem items="accordionnotes" type="Contained"/>
-          </StatusEffect>
-          <StatusEffect type="OnUse" target="This">
-            <Conditional condition="lt 99"/>
-            <sound file="Content/Items/Misc/AccordionLoop.ogg" type="OnUse" range="600" loop="true" volume="2" />
-          </StatusEffect>
+            <StatusEffect type="OnUse" targettype="Contained">
+                <Conditional hastag="eq accordionnotes"/>
+                <Use/>
+            </StatusEffect>
+            <!--<StatusEffect type="Always" targettype="This" condition="-1"/> -->
+            <StatusEffect type="Always" targettype="This" condition="50" setvalue="true">
+                <!-- <Conditional condition="lt 20"/> -->
+            </StatusEffect>
+            <StatusEffect type="Always" targettype="This" condition="100" setvalue="true">
+                <RequiredItem items="accordionnotes" type="Contained"/>
+            </StatusEffect>
+            <StatusEffect type="OnUse" target="This">
+                <Conditional condition="lt 99"/>
+                <sound file="Content/Items/Misc/AccordionLoop.ogg" type="OnUse" range="600" loop="true" volume="2"/>
+            </StatusEffect>
         </Holdable>
         <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="6" itempos="0,0" iteminterval="0,0" itemrotation="0" canbeselected="false" containedspritedepth="0.79">
             <Containable items="accordionnotes"></Containable>
@@ -421,99 +421,99 @@
     </Item>
 
     <Item name="(Accordion) Imperial March" description="From Star Wars" identifier="accordion-imperial-march" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-    <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-    <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
-    <Price baseprice="50" soldeverywhere="false">
-        <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
-        <Price locationtype="city" multiplier="1" minavailable="0" maxavailable="2"/>
-        <Price locationtype="research" multiplier="1" sold="false"/>
-        <Price locationtype="military" multiplier="1" sold="false"/>
-        <Price locationtype="mine" multiplier="1" sold="false"/>
-    </Price>
-    <InventoryIcon texture="Mods/RIMM Reworked/graphics/NotesAtlas.png" sourcerect="60,60,60,60" origin="0.5,0.5"/>
-    <Sprite texture="Mods/RIMM Reworked/graphics/NotesAtlas.png" sourcerect="60,60,60,60" depth="0.5" origin="0.5,0.5"/>
-    <Body width="24" height="24"/>
-    <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect"/>
-    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" removecontaineditemsondeconstruct="true">
-        <StatusEffect type="OnUse" targettype="Contained">
-            <Use />
-        </StatusEffect>
-        <StatusEffect type="OnContained" targettype="This" condition="50" setvalue="true">
-            <Conditional hastag="!eq accordion" targetcontainer="true"/>
-            <Use/>
-        </StatusEffect>
-        <StatusEffect type="OnContained" targettype="This" condition="100" setvalue="true">
-            <Conditional hastag="eq accordion" targetcontainer="true"/>
-            <SpawnItem identifiers="rimm-accordion-song-imperial-march" spawnposition="ThisInventory"/>
-        </StatusEffect>
-        <StatusEffect type="OnNotContained" targettype="Contained">
-            <Remove/>
-        </StatusEffect>
-        <Containable items="song"/>
-    </ItemContainer>
-</Item>
-<Item name="Song: Imperial March" identifier="rimm-accordion-song-imperial-march" Tags="song" category="Misc">
-    <Sprite texture="Content/Items/Electricity/signalcomp.png" depth="0.8" sourcerect="0,160,4,4" origin="0.5,0.5"/>
-    <Body width="48" height="48"/>
-    <InventoryIcon texture="Content/Items/Electricity/signalcomp.png" sourcerect="0,160,4,4" origin="0.5,0.5"/>
-    <ItemComponent>
-        <StatusEffect type="OnUse" targettype="Parent">
-            <Conditional hastag="eq accordion" targetcontainer="true"/>
-            <sound file="Mods/RIMM Reworked/audio/accordion/accordion-imperial-march.ogg" type="OnUse" range="300" loop="true" volume="1"/>
-        </StatusEffect>
-        <StatusEffect type="OnUse" targettype="This">
-            <Conditional condition="lt 60" targetcontainer="true"/>
-            <Remove/>
-        </StatusEffect>
-    </ItemComponent>
-</Item>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
+        <Price baseprice="50" soldeverywhere="false">
+            <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
+            <Price locationtype="city" multiplier="1" minavailable="0" maxavailable="2"/>
+            <Price locationtype="research" multiplier="1" sold="false"/>
+            <Price locationtype="military" multiplier="1" sold="false"/>
+            <Price locationtype="mine" multiplier="1" sold="false"/>
+        </Price>
+        <InventoryIcon texture="Mods/RIMM Reworked/graphics/NotesAtlas.png" sourcerect="60,60,60,60" origin="0.5,0.5"/>
+        <Sprite texture="Mods/RIMM Reworked/graphics/NotesAtlas.png" sourcerect="60,60,60,60" depth="0.5" origin="0.5,0.5"/>
+        <Body width="24" height="24"/>
+        <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" removecontaineditemsondeconstruct="true">
+            <StatusEffect type="OnUse" targettype="Contained">
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="50" setvalue="true">
+                <Conditional hastag="!eq accordion" targetcontainer="true"/>
+                <Use/>
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="100" setvalue="true">
+                <Conditional hastag="eq accordion" targetcontainer="true"/>
+                <SpawnItem identifiers="rimm-accordion-song-imperial-march" spawnposition="ThisInventory"/>
+            </StatusEffect>
+            <StatusEffect type="OnNotContained" targettype="Contained">
+                <Remove/>
+            </StatusEffect>
+            <Containable items="song"/>
+        </ItemContainer>
+    </Item>
+    <Item name="Song: Imperial March" identifier="rimm-accordion-song-imperial-march" Tags="song" category="Misc">
+        <Sprite texture="Content/Items/Electricity/signalcomp.png" depth="0.8" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <Body width="48" height="48"/>
+        <InventoryIcon texture="Content/Items/Electricity/signalcomp.png" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <ItemComponent>
+            <StatusEffect type="OnUse" targettype="Parent">
+                <Conditional hastag="eq accordion" targetcontainer="true"/>
+                <sound file="Mods/RIMM Reworked/audio/accordion/accordion-imperial-march.ogg" type="OnUse" range="300" loop="true" volume="1"/>
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="This">
+                <Conditional condition="lt 60" targetcontainer="true"/>
+                <Remove/>
+            </StatusEffect>
+        </ItemComponent>
+    </Item>
 
-<Item name="(Accordion) Dogsong" description="From Undertale" identifier="accordion-dogsong" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-    <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-    <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
-    <Price baseprice="50" soldeverywhere="false">
-        <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
-        <Price locationtype="city" multiplier="1" minavailable="0" maxavailable="2"/>
-        <Price locationtype="research" multiplier="1" sold="false"/>
-        <Price locationtype="military" multiplier="1" sold="false"/>
-        <Price locationtype="mine" multiplier="1" sold="false"/>
-    </Price>
-    <InventoryIcon texture="Mods/RIMM Reworked/graphics/NotesAtlas.png" sourcerect="60,60,60,60" origin="0.5,0.5"/>
-    <Sprite texture="Mods/RIMM Reworked/graphics/NotesAtlas.png" sourcerect="60,60,60,60" depth="0.5" origin="0.5,0.5"/>
-    <Body width="24" height="24"/>
-    <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect"/>
-    <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" removecontaineditemsondeconstruct="true">
-        <StatusEffect type="OnUse" targettype="Contained">
-            <Use />
-        </StatusEffect>
-        <StatusEffect type="OnContained" targettype="This" condition="50" setvalue="true">
-            <Conditional hastag="!eq accordion" targetcontainer="true"/>
-            <Use/>
-        </StatusEffect>
-        <StatusEffect type="OnContained" targettype="This" condition="100" setvalue="true">
-            <Conditional hastag="eq accordion" targetcontainer="true"/>
-            <SpawnItem identifiers="rimm-accordion-song-dogsong" spawnposition="ThisInventory"/>
-        </StatusEffect>
-        <StatusEffect type="OnNotContained" targettype="Contained">
-            <Remove/>
-        </StatusEffect>
-        <Containable items="song"/>
-    </ItemContainer>
-</Item>
-<Item name="Song: Dogsong" identifier="rimm-accordion-song-dogsong" Tags="song" category="Misc">
-    <Sprite texture="Content/Items/Electricity/signalcomp.png" depth="0.8" sourcerect="0,160,4,4" origin="0.5,0.5"/>
-    <Body width="48" height="48"/>
-    <InventoryIcon texture="Content/Items/Electricity/signalcomp.png" sourcerect="0,160,4,4" origin="0.5,0.5"/>
-    <ItemComponent>
-        <StatusEffect type="OnUse" targettype="Parent">
-            <Conditional hastag="eq accordion" targetcontainer="true"/>
-            <sound file="Mods/RIMM Reworked/audio/accordion/accordion-dogsong.ogg" type="OnUse" range="300" loop="true" volume="1"/>
-        </StatusEffect>
-        <StatusEffect type="OnUse" targettype="This">
-            <Conditional condition="lt 60" targetcontainer="true"/>
-            <Remove/>
-        </StatusEffect>
-    </ItemComponent>
-</Item>
+    <Item name="(Accordion) Dogsong" description="From Undertale" identifier="accordion-dogsong" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
+        <Price baseprice="50" soldeverywhere="false">
+            <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
+            <Price locationtype="city" multiplier="1" minavailable="0" maxavailable="2"/>
+            <Price locationtype="research" multiplier="1" sold="false"/>
+            <Price locationtype="military" multiplier="1" sold="false"/>
+            <Price locationtype="mine" multiplier="1" sold="false"/>
+        </Price>
+        <InventoryIcon texture="Mods/RIMM Reworked/graphics/NotesAtlas.png" sourcerect="60,60,60,60" origin="0.5,0.5"/>
+        <Sprite texture="Mods/RIMM Reworked/graphics/NotesAtlas.png" sourcerect="60,60,60,60" depth="0.5" origin="0.5,0.5"/>
+        <Body width="24" height="24"/>
+        <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" removecontaineditemsondeconstruct="true">
+            <StatusEffect type="OnUse" targettype="Contained">
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="50" setvalue="true">
+                <Conditional hastag="!eq accordion" targetcontainer="true"/>
+                <Use/>
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="100" setvalue="true">
+                <Conditional hastag="eq accordion" targetcontainer="true"/>
+                <SpawnItem identifiers="rimm-accordion-song-dogsong" spawnposition="ThisInventory"/>
+            </StatusEffect>
+            <StatusEffect type="OnNotContained" targettype="Contained">
+                <Remove/>
+            </StatusEffect>
+            <Containable items="song"/>
+        </ItemContainer>
+    </Item>
+    <Item name="Song: Dogsong" identifier="rimm-accordion-song-dogsong" Tags="song" category="Misc">
+        <Sprite texture="Content/Items/Electricity/signalcomp.png" depth="0.8" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <Body width="48" height="48"/>
+        <InventoryIcon texture="Content/Items/Electricity/signalcomp.png" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <ItemComponent>
+            <StatusEffect type="OnUse" targettype="Parent">
+                <Conditional hastag="eq accordion" targetcontainer="true"/>
+                <sound file="Mods/RIMM Reworked/audio/accordion/accordion-dogsong.ogg" type="OnUse" range="300" loop="true" volume="1"/>
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="This">
+                <Conditional condition="lt 60" targetcontainer="true"/>
+                <Remove/>
+            </StatusEffect>
+        </ItemComponent>
+    </Item>
 
 </Override>
