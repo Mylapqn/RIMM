@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <Item name="" identifier="guitar" category="Misc" Tags="bigitem, guitar" scale="0.5" description="" price="300" isshootable="true">
+    <Item name="" identifier="guitar" category="Misc" Tags="bigitem, guitar" scale="0.5" description="" price="300" isshootable="true" HideConditionBar="true">
         <Upgrade gameversion="0.15.13.0" scale="0.5"/>
         <PreferredContainer primary="crewcab" spawnprobability="0.01"/>
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1"/>
@@ -17,7 +17,22 @@
         <RangedWeapon reload="1"/>
         <Holdable slots="RightHand+LeftHand" controlpose="true" aimpos="50,0" handle1="-2,0" handle2="10,50" swingamount="10,20" swingspeed="1" swingwhenusing="true" msg="ItemMsgPickUpSelect">
             <StatusEffect type="OnUse" targettype="Contained">
+              <Conditional hastag="eq guitarnotes"/>
                 <Use/>
+            </StatusEffect>
+            <StatusEffect type="Always" targettype="This" condition="-1"/>
+            <StatusEffect type="Always" targettype="This" condition="50" setvalue="true">
+              <Conditional condition="lt 20"/>
+            </StatusEffect>
+            <StatusEffect type="Always" targettype="This" condition="100" setvalue="true">
+              <RequiredItem items="guitarnotes" type="Contained"/>
+            </StatusEffect>
+            <StatusEffect type="OnUse" target="This">
+              <Conditional condition="lt 99"/>
+              <sound file="Content/Items/Misc/Guitar1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="2"/>
+              <sound file="Content/Items/Misc/Guitar2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="2"/>
+              <sound file="Content/Items/Misc/Guitar3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="2"/>
+              <sound file="Content/Items/Misc/GuitarClown.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="2"/>
             </StatusEffect>
         </Holdable>
         <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="6" itempos="0,0" iteminterval="0,0" itemrotation="0" canbeselected="false" containedspritedepth="0.79">
@@ -72,7 +87,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    
+
     <Item name="(Guitar) Crazy Frog" description="By Crazy Frog" identifier="guitar-crazy-frog" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>

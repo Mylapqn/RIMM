@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <Item name="" identifier="accordion" category="Misc" Tags="smallitem, accordion" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
+    <Item name="" identifier="accordion" category="Misc" Tags="smallitem, accordion" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.05"/>
         <Price baseprice="50" soldeverywhere="false">
@@ -16,9 +16,21 @@
         <Body width="92" height="110"/>
         <RangedWeapon reload="1"/>
         <Holdable slots="RightHand+LeftHand,Any" aimable="false" aimpos="50,-20" handle1="-20,0" handle2="-10,0" swingamount="50,0" swingspeed="0.5" swingwhenusing="true" msg="ItemMsgPickUpSelect">
-            <StatusEffect type="OnUse" targettype="Contained">
-                <Use/>
-            </StatusEffect>
+          <StatusEffect type="OnUse" targettype="Contained">
+            <Conditional hastag="eq accordionnotes"/>
+              <Use/>
+          </StatusEffect>
+          <StatusEffect type="Always" targettype="This" condition="-1"/>
+          <StatusEffect type="Always" targettype="This" condition="50" setvalue="true">
+            <Conditional condition="lt 20"/>
+          </StatusEffect>
+          <StatusEffect type="Always" targettype="This" condition="100" setvalue="true">
+            <RequiredItem items="accordionnotes" type="Contained"/>
+          </StatusEffect>
+          <StatusEffect type="OnUse" target="This">
+            <Conditional condition="lt 99"/>
+            <sound file="Content/Items/Misc/AccordionLoop.ogg" type="OnUse" range="600" loop="true" volume="2" />
+          </StatusEffect>
         </Holdable>
         <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="6" itempos="0,0" iteminterval="0,0" itemrotation="0" canbeselected="false" containedspritedepth="0.79">
             <Containable items="accordionnotes"></Containable>
