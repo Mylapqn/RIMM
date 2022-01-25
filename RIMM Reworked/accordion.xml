@@ -28,7 +28,7 @@
                 <RequiredItem items="accordionnotes" type="Contained"/>
             </StatusEffect>
             <StatusEffect type="OnUse" target="This">
-                <Conditional condition="lt 98"/>
+                <Conditional condition="lt 99"/>
                 <sound file="Content/Items/Misc/AccordionLoop.ogg" type="OnUse" range="600" loop="true" volume="2"/>
             </StatusEffect>
         </Holdable>
