@@ -53,4 +53,6 @@
   <None file="Mods/RIMM Reworked/audio/harmonica/harmonica-the-force.ogg" />
   <None file="Mods/RIMM Reworked/audio/accordion/accordion-dogsong.ogg" />
   <None file="Mods/RIMM Reworked/audio/guitar/guitar-toss-a-coin-to-your-witcher.ogg" />
+  <NPCSets file="Mods/RIMM Reworked/RIMMGenerationNPC.xml" />
+  <OutpostConfig file="Mods/RIMM Reworked/RIMMOutpostGenerationParameters.xml" />
 </contentpackage>

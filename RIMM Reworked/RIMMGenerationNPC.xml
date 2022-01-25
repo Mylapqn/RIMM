@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npcsets>
+    <npcset identifier="rimm_music_merchant">
+        <npc identifier="music-merchant" job="captain" commonness="1" spawnpointtags="shop" healthmultiplier="3" campaigninteractiontype="Store" behavior="StayInHull">
+            <ItemSet commonness="1">
+                <Item identifier="administratorclothes" equip="false"/>
+                <Item identifier="idcard" equip="true"/>
+                <Item identifier="divingmask">
+                <Item identifier="oxygentank" />
+                </Item>
+            </ItemSet>
+        </npc>
+    </npcset>
+</npcsets>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+    <OutpostConfig identifier="outpost" replaceinradiation="abandonedoutpost" totalmodulecount="6" minhallwaylength="0" allowedlocationtypes="Outpost">
+        <modulecount flag="Airlock" count="1"/>
+        <modulecount flag="EngineeringModule" count="1"/>
+        <modulecount flag="AdminModule" count="1"/>
+        <modulecount flag="CrewModule" count="1"/>
+
+        <npcs>
+            <npc from="outpostnpcs1" identifier="hrmanager"/>
+            <npc from="outpostnpcs1" identifier="repairnpc"/>
+            <npc from="outpostnpcs1" identifier="subupgradenpc"/>
+            <npc from="outpostnpcs1" identifier="subsalesnpc"/>
+            <npc from="outpostnpcs1" identifier="reactoroperator"/>
+            <npc from="outpostnpcs1" identifier="merchant"/>
+            <npc from="outpostnpcs1" identifier="securitynpc"/>
+            <npc from="outpostnpcs1" identifier="outpostmanager"/>
+            <npc from="outpostnpcs1" identifier="outpostdoctor"/>
+            <npc from="outpostnpcs1" identifier="commoner"/>
+            <npc from="outpostnpcs1" identifier="commoner"/>
+            <npc from="outpostnpcs1" identifier="commoner"/>
+            <npc from="rimm_music_merchant" identifier="music-merchant"/>
+        </npcs>
+    </OutpostConfig>
+
+    <OutpostConfig identifier="city" replaceinradiation="abandonedoutpost" totalmodulecount="7" minhallwaylength="0" allowedlocationtypes="City">
+        <modulecount flag="Airlock" count="1"/>
+        <modulecount flag="EngineeringModule" count="1"/>
+        <modulecount flag="AdminModule" count="1"/>
+        <modulecount flag="CrewModule" count="1"/>
+
+        <npcs>
+            <npc from="outpostnpcs1" identifier="hrmanager"/>
+            <npc from="outpostnpcs1" identifier="repairnpc"/>
+            <npc from="outpostnpcs1" identifier="subupgradenpc"/>
+            <npc from="outpostnpcs1" identifier="subsalesnpc"/>
+            <npc from="outpostnpcs1" identifier="reactoroperator"/>
+            <npc from="outpostnpcs1" identifier="merchant"/>
+            <npc from="outpostnpcs1" identifier="securitynpc"/>
+            <npc from="outpostnpcs1" identifier="securitynpc"/>
+            <npc from="outpostnpcs1" identifier="securitynpc"/>
+            <npc from="outpostnpcs1" identifier="outpostmanager"/>
+            <npc from="outpostnpcs1" identifier="outpostdoctor"/>
+            <npc from="outpostnpcs1" identifier="commoner"/>
+            <npc from="outpostnpcs1" identifier="commoner"/>
+            <npc from="outpostnpcs1" identifier="commoner"/>
+            <npc from="outpostnpcs1" identifier="commoner"/>
+            <npc from="rimm_music_merchant" identifier="music-merchant"/>
+        </npcs>
+    </OutpostConfig>
+</Override>
