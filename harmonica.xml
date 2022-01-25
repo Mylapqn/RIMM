@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Override>
-    <Item name="" identifier="harmonica" category="Misc" Tags="smallitem, harmonica" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true">
+    <Item name="" identifier="harmonica" category="Misc" Tags="smallitem, harmonica" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true" HideConditionBar="true">
         <Upgrade gameversion="0.15.13.0" scale="0.5"/>
         <PreferredContainer primary="crewcab" spawnprobability="0.01"/>
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1"/>
@@ -16,9 +16,22 @@
         <Body width="58" height="20"/>
         <RangedWeapon reload="1"/>
         <Holdable slots="RightHand+LeftHand,Any" aimable="false" aimpos="20,20" handle1="-5,0" handle2="5,0" swingamount="20,0" swingspeed="1" swingwhenusing="true" msg="ItemMsgPickUpSelect">
-            <StatusEffect type="OnUse" targettype="Contained">
-                <Use/>
-            </StatusEffect>
+          <StatusEffect type="OnUse" targettype="Contained">
+            <Conditional hastag="eq harmonicanotes"/>
+              <Use/>
+          </StatusEffect>
+          <StatusEffect type="Always" targettype="This" condition="-1"/>
+          <StatusEffect type="Always" targettype="This" condition="50" setvalue="true">
+            <Conditional condition="lt 20"/>
+          </StatusEffect>
+          <StatusEffect type="Always" targettype="This" condition="100" setvalue="true">
+            <RequiredItem items="harmonicanotes" type="Contained"/>
+          </StatusEffect>
+          <StatusEffect type="OnUse" target="This">
+            <Conditional condition="lt 99"/>
+            <sound file="Content/Items/Misc/Harmonica1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="600" loop="true" volume="2"/>
+            <sound file="Content/Items/Misc/Harmonica2.ogg" type="OnUse" range="600" loop="true" volume="2"/>
+          </StatusEffect>
             <StatusEffect tags="playingharmonica" type="OnUse" target="Character" duration="0.1" stackable="false"/>
         </Holdable>
         <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="6" itempos="0,0" iteminterval="0,0" itemrotation="0" canbeselected="false" containedspritedepth="0.79">
