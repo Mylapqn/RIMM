@@ -41,6 +41,7 @@
 
     <Item name="(Harmonica) Harmonica Beatbox" description="By Unknown" identifier="harmonica-harmonica-beatbox" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -88,6 +89,7 @@
     </Item>
     <Item name="(Harmonica) Jurassic Park" description="From Jurassic Park" identifier="harmonica-jurassic-park" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -135,6 +137,7 @@
     </Item>
     <Item name="(Harmonica) Vabank" description="By Unknown" identifier="harmonica-vabank" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -183,6 +186,7 @@
 
     <Item name="(Harmonica) Cruel Angel's Thesis" description="From Neon Genesis Evangelion" identifier="harmonica-cruel-angel-thesis" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -231,6 +235,7 @@
 
     <Item name="(Harmonica) The Entertainer" description="By Scott Joplin" identifier="harmonica-entertainer" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -279,6 +284,7 @@
 
     <Item name="(Harmonica) Korobushka" description="By Sergej Graf" identifier="harmonica-korobushka" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -327,6 +333,7 @@
 
     <Item name="(Harmonica) The Force" description="From Star Wars" identifier="harmonica-the-force" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>

@@ -2,6 +2,7 @@
 <Override>
     <Item name="" identifier="accordion" category="Misc" Tags="smallitem, accordion" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.05"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="1" maxavailable="2"/>
@@ -39,6 +40,7 @@
 
     <Item name="(Accordion) Gangsta's Paradise" description="By Coolio" identifier="accordion-gangsta-paradise" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -87,6 +89,7 @@
 
     <Item name="(Accordion) Kazotsky" description="By Unknown" identifier="accordion-kazotsky" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -134,6 +137,7 @@
     </Item>
     <Item name="(Accordion) No Time for Caution" description="From Interstellar" identifier="accordion-no-time-for-caution" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -181,6 +185,7 @@
     </Item>
     <Item name="(Accordion) Papers, Please" description="From Papers, Please" identifier="accordion-papers-please" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -229,6 +234,7 @@
 
     <Item name="(Accordion) Amusement Park" description="From Nier: Automata" identifier="accordion-amusement-park" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -277,6 +283,7 @@
 
     <Item name="(Accordion) Gate of Steiner" description="From Steins; Gate" identifier="accordion-gate-of-steiner" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -325,6 +332,7 @@
 
     <Item name="(Accordion) Kalinka" description="By theonewhoCheekiBreeki" identifier="accordion-kalinka" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -374,6 +382,7 @@
 
     <Item name="(Accordion) Kass' theme" description="From The Legend of Zelda: BOTW" identifier="accordion-kass-theme" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -422,6 +431,7 @@
 
     <Item name="(Accordion) Imperial March" description="From Star Wars" identifier="accordion-imperial-march" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -470,6 +480,7 @@
 
     <Item name="(Accordion) Dogsong" description="From Undertale" identifier="accordion-dogsong" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
