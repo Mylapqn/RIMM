@@ -25,8 +25,8 @@
     </Item>
 
     <Item name="(Chorus Book) Ievan Polkka" description="By Loituma" identifier="chorus-book-ievan-polkka" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -73,8 +73,8 @@
         </ItemComponent>
     </Item>
     <Item name="(Chorus Book) Space Oddity" description="By David Bowie" identifier="chorus-book-space-oddity" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -122,8 +122,8 @@
     </Item>
 
     <Item name="(Chorus Book) Wellermann" description="By The Longest Johns" identifier="chorus-book-wellermann" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -171,8 +171,8 @@
     </Item>
 
     <Item name="(Chorus Book) Drunken Sailor" description="By Colm McGuinness" identifier="chorus-book-drunken-sailor" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -220,8 +220,8 @@
     </Item>
 
     <Item name="(Chorus Book) We All Lift Together" description="From Warframe" identifier="chorus-book-we-all-lift-together" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -269,8 +269,8 @@
     </Item>
 
     <Item name="(Chorus Book) Misty Mountains" description="From The Hobbit" identifier="chorus-book-misty-mountains" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -318,8 +318,8 @@
     </Item>
 
     <Item name="(Chorus Book) Hanging Johnny" description="By Colm McGuinness" identifier="chorus-book-hanging-johnny" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>

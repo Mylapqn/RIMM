@@ -45,8 +45,8 @@
     </Item>
 
     <Item name="(Guitar) Inspector Gadget" description="From Inspector Gadget" identifier="guitar-inspector-gadget" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -94,8 +94,8 @@
     </Item>
 
     <Item name="(Guitar) Crazy Frog" description="By Crazy Frog" identifier="guitar-crazy-frog" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -143,8 +143,8 @@
     </Item>
 
     <Item name="(Guitar) Ievan Polkka" description="By Loituma" identifier="guitar-ievan-polkka" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -192,8 +192,8 @@
     </Item>
 
     <Item name="(Guitar) Seven Nation Army" description="By The White Stripes" identifier="guitar-seven-nation-army" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -241,8 +241,8 @@
     </Item>
 
     <Item name="(Guitar) Space Oddity" description="By David Bowie" identifier="guitar-space-oddity" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -290,8 +290,8 @@
     </Item>
 
     <Item name="(Guitar) Renai Circulation" description="From Bakemonogatari" identifier="guitar-renai-circulation" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -339,8 +339,8 @@
     </Item>
 
     <Item name="(Guitar) Ceta" description="From RimWorld" identifier="guitar-ceta" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -388,8 +388,8 @@
     </Item>
 
     <Item name="(Guitar) Time" description="From Inception" identifier="guitar-time" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -437,8 +437,8 @@
     </Item>
 
     <Item name="(Guitar) Legend of Korra" description="From Legend Of Korra" identifier="guitar-legend-of-korra" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -486,8 +486,8 @@
     </Item>
 
     <Item name="(Guitar) The Mandalorian" description="From The Mandalorian" identifier="guitar-the-mandalorian" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>
@@ -535,8 +535,8 @@
     </Item>
 
     <Item name="(Guitar) Toss A Coin To Your Witcher" description="From The Witcher" identifier="guitar-toss-a-coin-to-your-witcher" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.05"/>
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.02"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
         <Price baseprice="50" soldeverywhere="false">
             <Price locationtype="outpost" multiplier="1" minavailable="0" maxavailable="2"/>

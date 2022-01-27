@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="RIMM Reworked" path="Mods/RIMM Reworked/filelist.xml" corepackage="false" gameversion="0.15.23.0" steamworkshopid="2728646394" installtime="1643199139">
+<contentpackage name="RIMM Reworked" path="Mods/RIMM Reworked/filelist.xml" corepackage="false" gameversion="0.15.23.0" steamworkshopid="2728646394" installtime="1643309030">
   <Item file="Mods/RIMM Reworked/accordion.xml" />
   <Item file="Mods/RIMM Reworked/cassette-player.xml" />
   <Item file="Mods/RIMM Reworked/chorus-book.xml" />
@@ -53,4 +53,5 @@
   <None file="Mods/RIMM Reworked/audio/harmonica/harmonica-korobushka.ogg" />
   <None file="Mods/RIMM Reworked/audio/harmonica/harmonica-the-force.ogg" />
   <None file="Mods/RIMM Reworked/audio/harmonica/harmonica-vabank.ogg" />
+  <None file="Mods/RIMM Reworked/audio/cassette-player/cassette-player-yellow-submarine.ogg" />
 </contentpackage>
