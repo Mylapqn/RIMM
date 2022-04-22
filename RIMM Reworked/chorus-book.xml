@@ -63,7 +63,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq chorus-book" targetcontainer="true" />
-        <sound file="%ModDir%/audio/chorus-book/chorus-book-ievan-polkka.ogg" type="OnUse" range="300" loop="true" volume="1" />
+        <sound file="%ModDir%/audio/chorus-book/chorus-book-ievan-polkka.ogg" type="OnUse" range="300" loop="true" volume="0.7" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -111,7 +111,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq chorus-book" targetcontainer="true" />
-        <sound file="%ModDir%/audio/chorus-book/chorus-book-space-oddity.ogg" type="OnUse" range="300" loop="true" volume="1" />
+        <sound file="%ModDir%/audio/chorus-book/chorus-book-space-oddity.ogg" type="OnUse" range="300" loop="true" volume="0.7" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -159,7 +159,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq chorus-book" targetcontainer="true" />
-        <sound file="%ModDir%/audio/chorus-book/chorus-book-wellermann.ogg" type="OnUse" range="300" loop="true" volume="1" />
+        <sound file="%ModDir%/audio/chorus-book/chorus-book-wellermann.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -207,7 +207,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq chorus-book" targetcontainer="true" />
-        <sound file="%ModDir%/audio/chorus-book/chorus-book-drunken-sailor.ogg" type="OnUse" range="300" loop="true" volume="1" />
+        <sound file="%ModDir%/audio/chorus-book/chorus-book-drunken-sailor.ogg" type="OnUse" range="300" loop="true" volume="0.4" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -255,7 +255,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq chorus-book" targetcontainer="true" />
-        <sound file="%ModDir%/audio/chorus-book/chorus-book-we-all-lift-together.ogg" type="OnUse" range="300" loop="true" volume="1" />
+        <sound file="%ModDir%/audio/chorus-book/chorus-book-we-all-lift-together.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -303,7 +303,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq chorus-book" targetcontainer="true" />
-        <sound file="%ModDir%/audio/chorus-book/chorus-book-misty-mountains.ogg" type="OnUse" range="300" loop="true" volume="1" />
+        <sound file="%ModDir%/audio/chorus-book/chorus-book-misty-mountains.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -351,7 +351,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq chorus-book" targetcontainer="true" />
-        <sound file="%ModDir%/audio/chorus-book/chorus-book-hanging-johnny.ogg" type="OnUse" range="300" loop="true" volume="1" />
+        <sound file="%ModDir%/audio/chorus-book/chorus-book-hanging-johnny.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
