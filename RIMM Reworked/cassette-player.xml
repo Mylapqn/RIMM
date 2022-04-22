@@ -67,7 +67,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq cassette-player" targetcontainer="true" />
-        <sound file="%ModDir%/audio/cassette-player/cassette-player-oddity.ogg" type="OnUse" range="300" loop="true" volume="2" />
+        <sound file="%ModDir%/audio/cassette-player/cassette-player-oddity.ogg" type="OnUse" range="300" loop="true" volume="0.4" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -115,7 +115,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq cassette-player" targetcontainer="true" />
-        <sound file="%ModDir%/audio/cassette-player/cassette-player-any-old-thing.ogg" type="OnUse" range="300" loop="true" volume="2" />
+        <sound file="%ModDir%/audio/cassette-player/cassette-player-any-old-thing.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -163,7 +163,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq cassette-player" targetcontainer="true" />
-        <sound file="%ModDir%/audio/cassette-player/cassette-player-delight.ogg" type="OnUse" range="300" loop="true" volume="2" />
+        <sound file="%ModDir%/audio/cassette-player/cassette-player-delight.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -210,7 +210,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq cassette-player" targetcontainer="true" />
-        <sound file="%ModDir%/audio/cassette-player/cassette-player-nasa-europa.ogg" type="OnUse" range="300" loop="true" volume="2" />
+        <sound file="%ModDir%/audio/cassette-player/cassette-player-nasa-europa.ogg" type="OnUse" range="300" loop="true" volume="0.7" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -258,7 +258,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq cassette-player" targetcontainer="true" />
-        <sound file="%ModDir%/audio/cassette-player/cassette-player-esprit.ogg" type="OnUse" range="300" loop="true" volume="2" />
+        <sound file="%ModDir%/audio/cassette-player/cassette-player-esprit.ogg" type="OnUse" range="300" loop="true" volume="0.2" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -306,7 +306,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq cassette-player" targetcontainer="true" />
-        <sound file="%ModDir%/audio/cassette-player/cassette-player-every-day-is-night.ogg" type="OnUse" range="300" loop="true" volume="2" />
+        <sound file="%ModDir%/audio/cassette-player/cassette-player-every-day-is-night.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -354,7 +354,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq cassette-player" targetcontainer="true" />
-        <sound file="%ModDir%/audio/cassette-player/cassette-player-lets-dance-boys.ogg" type="OnUse" range="300" loop="true" volume="0.8" />
+        <sound file="%ModDir%/audio/cassette-player/cassette-player-lets-dance-boys.ogg" type="OnUse" range="300" loop="true" volume="0.1" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -402,7 +402,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq cassette-player" targetcontainer="true" />
-        <sound file="%ModDir%/audio/cassette-player/cassette-player-yellow-submarine.ogg" type="OnUse" range="300" loop="true" volume="2" />
+        <sound file="%ModDir%/audio/cassette-player/cassette-player-yellow-submarine.ogg" type="OnUse" range="300" loop="true" volume="0.4" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
