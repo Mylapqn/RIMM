@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="[Music mod] RIMM Reworked" modversion="1.0.1" corepackage="False" steamworkshopid="2728646394" gameversion="0.17.2.0" altnames="RIMM Reworked">
+<contentpackage name="[Music mod] RIMM Reworked" modversion="1.0.2" corepackage="False" steamworkshopid="2728646394" gameversion="0.17.12.0" altnames="RIMM Reworked">
   <Item file="%ModDir%/accordion.xml" />
   <Item file="%ModDir%/cassette-player.xml" />
   <Item file="%ModDir%/chorus-book.xml" />
