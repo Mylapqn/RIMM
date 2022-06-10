@@ -78,7 +78,7 @@
         <ItemComponent>
             <StatusEffect type="OnUse" targettype="Parent">
                 <Conditional hastag="eq harmonica" targetcontainer="true"/>
-                <sound file="%ModDir%/audio/harmonica/harmonica-harmonica-beatbox.ogg" type="OnUse" loop="true" volume="1"/>
+                <sound file="%ModDir%/audio/harmonica/harmonica-harmonica-beatbox.ogg" type="OnUse" loop="true" volume="0.9"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="This">
                 <Conditional condition="lt 60" targetcontainer="true"/>
@@ -126,7 +126,7 @@
         <ItemComponent>
             <StatusEffect type="OnUse" targettype="Parent">
                 <Conditional hastag="eq harmonica" targetcontainer="true"/>
-                <sound file="%ModDir%/audio/harmonica/harmonica-jurassic-park.ogg" type="OnUse" loop="true" volume="1"/>
+                <sound file="%ModDir%/audio/harmonica/harmonica-jurassic-park.ogg" type="OnUse" loop="true" volume="0.9"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="This">
                 <Conditional condition="lt 60" targetcontainer="true"/>
@@ -174,7 +174,7 @@
         <ItemComponent>
             <StatusEffect type="OnUse" targettype="Parent">
                 <Conditional hastag="eq harmonica" targetcontainer="true"/>
-                <sound file="%ModDir%/audio/harmonica/harmonica-vabank.ogg" type="OnUse" loop="true" volume="1"/>
+                <sound file="%ModDir%/audio/harmonica/harmonica-vabank.ogg" type="OnUse" loop="true" volume="0.9"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="This">
                 <Conditional condition="lt 60" targetcontainer="true"/>
@@ -222,7 +222,7 @@
         <ItemComponent>
             <StatusEffect type="OnUse" targettype="Parent">
                 <Conditional hastag="eq harmonica" targetcontainer="true"/>
-                <sound file="%ModDir%/audio/harmonica/harmonica-cruel-angel-thesis.ogg" type="OnUse" loop="true" volume="1"/>
+                <sound file="%ModDir%/audio/harmonica/harmonica-cruel-angel-thesis.ogg" type="OnUse" loop="true" volume="0.8"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="This">
                 <Conditional condition="lt 60" targetcontainer="true"/>
@@ -270,7 +270,7 @@
         <ItemComponent>
             <StatusEffect type="OnUse" targettype="Parent">
                 <Conditional hastag="eq harmonica" targetcontainer="true"/>
-                <sound file="%ModDir%/audio/harmonica/harmonica-entertainer.ogg" type="OnUse" loop="true" volume="1"/>
+                <sound file="%ModDir%/audio/harmonica/harmonica-entertainer.ogg" type="OnUse" loop="true" volume="0.9"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="This">
                 <Conditional condition="lt 60" targetcontainer="true"/>
@@ -318,7 +318,7 @@
         <ItemComponent>
             <StatusEffect type="OnUse" targettype="Parent">
                 <Conditional hastag="eq harmonica" targetcontainer="true"/>
-                <sound file="%ModDir%/audio/harmonica/harmonica-korobushka.ogg" type="OnUse" loop="true" volume="1"/>
+                <sound file="%ModDir%/audio/harmonica/harmonica-korobushka.ogg" type="OnUse" loop="true" volume="0.9"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="This">
                 <Conditional condition="lt 60" targetcontainer="true"/>
@@ -366,7 +366,7 @@
         <ItemComponent>
             <StatusEffect type="OnUse" targettype="Parent">
                 <Conditional hastag="eq harmonica" targetcontainer="true"/>
-                <sound file="%ModDir%/audio/harmonica/harmonica-the-force.ogg" type="OnUse" loop="true" volume="1"/>
+                <sound file="%ModDir%/audio/harmonica/harmonica-the-force.ogg" type="OnUse" loop="true" volume="0.9"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="This">
                 <Conditional condition="lt 60" targetcontainer="true"/>
