@@ -29,14 +29,14 @@
       </StatusEffect>
       <StatusEffect type="OnUse" target="This">
         <Conditional condition="lt 99" />
-        <sound file="Content/Items/Misc/Guitar1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="1" />
-        <sound file="Content/Items/Misc/Guitar2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="1" />
-        <sound file="Content/Items/Misc/Guitar3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="1" />
+        <sound file="Content/Items/Misc/Guitar1.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="1.3" />
+        <sound file="Content/Items/Misc/Guitar2.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="1.3" />
+        <sound file="Content/Items/Misc/Guitar3.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="1.3" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="This">
         <Conditional condition="100" />
         <RequiredItem items="bikehorn" type="Contained" />
-        <sound file="Content/Items/Misc/GuitarClown.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="1" />
+        <sound file="Content/Items/Misc/GuitarClown.ogg" type="OnUse" selectionmode="CharacterSpecific" range="300" loop="true" volume="1.3" />
       </StatusEffect>
     </Holdable>
     <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="6" itempos="0,0" iteminterval="0,0" itemrotation="0" canbeselected="false" containedspritedepth="0.79">
@@ -83,7 +83,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq guitar" targetcontainer="true" />
-        <sound file="%ModDir%/audio/guitar/guitar-inspector-gadget.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
+        <sound file="%ModDir%/audio/guitar/guitar-inspector-gadget.ogg" type="OnUse" range="300" loop="true" volume="0.8" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -131,7 +131,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq guitar" targetcontainer="true" />
-        <sound file="%ModDir%/audio/guitar/guitar-crazy-frog.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
+        <sound file="%ModDir%/audio/guitar/guitar-crazy-frog.ogg" type="OnUse" range="300" loop="true" volume="0.8" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -179,7 +179,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq guitar" targetcontainer="true" />
-        <sound file="%ModDir%/audio/guitar/guitar-ievan-polkka.ogg" type="OnUse" range="300" loop="true" volume="0.2" />
+        <sound file="%ModDir%/audio/guitar/guitar-ievan-polkka.ogg" type="OnUse" range="300" loop="true" volume="0.8" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -227,7 +227,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq guitar" targetcontainer="true" />
-        <sound file="%ModDir%/audio/guitar/guitar-seven-nation-army.ogg" type="OnUse" range="300" loop="true" volume="0.1" />
+        <sound file="%ModDir%/audio/guitar/guitar-seven-nation-army.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -323,7 +323,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq guitar" targetcontainer="true" />
-        <sound file="%ModDir%/audio/guitar/guitar-renai-circulation.ogg" type="OnUse" range="300" loop="true" volume="0.1" />
+        <sound file="%ModDir%/audio/guitar/guitar-renai-circulation.ogg" type="OnUse" range="300" loop="true" volume="0.8" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -371,7 +371,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq guitar" targetcontainer="true" />
-        <sound file="%ModDir%/audio/guitar/guitar-ceta.ogg" type="OnUse" range="300" loop="true" volume="0.1" />
+        <sound file="%ModDir%/audio/guitar/guitar-ceta.ogg" type="OnUse" range="300" loop="true" volume="0.8" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -419,7 +419,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq guitar" targetcontainer="true" />
-        <sound file="%ModDir%/audio/guitar/guitar-time.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
+        <sound file="%ModDir%/audio/guitar/guitar-time.ogg" type="OnUse" range="300" loop="true" volume="0.8" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -467,7 +467,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq guitar" targetcontainer="true" />
-        <sound file="%ModDir%/audio/guitar/guitar-legend-of-korra.ogg" type="OnUse" range="300" loop="true" volume="0.2" />
+        <sound file="%ModDir%/audio/guitar/guitar-legend-of-korra.ogg" type="OnUse" range="300" loop="true" volume="0.8" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -515,7 +515,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq guitar" targetcontainer="true" />
-        <sound file="%ModDir%/audio/guitar/guitar-the-mandalorian.ogg" type="OnUse" range="300" loop="true" volume="0.2" />
+        <sound file="%ModDir%/audio/guitar/guitar-the-mandalorian.ogg" type="OnUse" range="300" loop="true" volume="0.8" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -563,7 +563,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq guitar" targetcontainer="true" />
-        <sound file="%ModDir%/audio/guitar/guitar-toss-a-coin-to-your-witcher.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
+        <sound file="%ModDir%/audio/guitar/guitar-toss-a-coin-to-your-witcher.ogg" type="OnUse" range="300" loop="true" volume="0.8" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />

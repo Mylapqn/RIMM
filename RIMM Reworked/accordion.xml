@@ -30,7 +30,7 @@
       </StatusEffect>
       <StatusEffect type="OnUse" target="This">
         <Conditional condition="lt 99" />
-        <sound file="Content/Items/Misc/AccordionLoop.ogg" type="OnUse" range="600" loop="true" volume="1" />
+        <sound file="Content/Items/Misc/AccordionLoop.ogg" type="OnUse" range="600" loop="true" volume="1.8" />
       </StatusEffect>
     </Holdable>
     <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="6" itempos="0,0" iteminterval="0,0" itemrotation="0" canbeselected="false" containedspritedepth="0.79">
@@ -77,7 +77,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq accordion" targetcontainer="true" />
-        <sound file="%ModDir%/audio/accordion/accordion-gangsta-paradise.ogg" type="OnUse" range="300" loop="true" volume="0.4" />
+        <sound file="%ModDir%/audio/accordion/accordion-gangsta-paradise.ogg" type="OnUse" range="300" loop="true" volume="0.6" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -125,7 +125,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq accordion" targetcontainer="true" />
-        <sound file="%ModDir%/audio/accordion/accordion-kazotsky.ogg" type="OnUse" range="300" loop="true" volume="0.2" />
+        <sound file="%ModDir%/audio/accordion/accordion-kazotsky.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -173,7 +173,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq accordion" targetcontainer="true" />
-        <sound file="%ModDir%/audio/accordion/accordion-no-time-for-caution.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
+        <sound file="%ModDir%/audio/accordion/accordion-no-time-for-caution.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -221,7 +221,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq accordion" targetcontainer="true" />
-        <sound file="%ModDir%/audio/accordion/accordion-papers-please.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
+        <sound file="%ModDir%/audio/accordion/accordion-papers-please.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -269,7 +269,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq accordion" targetcontainer="true" />
-        <sound file="%ModDir%/audio/accordion/accordion-amusement-park.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
+        <sound file="%ModDir%/audio/accordion/accordion-amusement-park.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -317,7 +317,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq accordion" targetcontainer="true" />
-        <sound file="%ModDir%/audio/accordion/accordion-gate-of-steiner.ogg" type="OnUse" range="300" loop="true" volume="0.3" />
+        <sound file="%ModDir%/audio/accordion/accordion-gate-of-steiner.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -365,7 +365,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq accordion" targetcontainer="true" />
-        <sound file="%ModDir%/audio/accordion/accordion-kalinka.ogg" type="OnUse" range="300" loop="true" volume="0.2" />
+        <sound file="%ModDir%/audio/accordion/accordion-kalinka.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -413,7 +413,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq accordion" targetcontainer="true" />
-        <sound file="%ModDir%/audio/accordion/accordion-kass-theme.ogg" type="OnUse" range="300" loop="true" volume="0.2" />
+        <sound file="%ModDir%/audio/accordion/accordion-kass-theme.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -461,7 +461,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq accordion" targetcontainer="true" />
-        <sound file="%ModDir%/audio/accordion/accordion-imperial-march.ogg" type="OnUse" range="300" loop="true" volume="0.1" />
+        <sound file="%ModDir%/audio/accordion/accordion-imperial-march.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
@@ -509,7 +509,7 @@
     <ItemComponent>
       <StatusEffect type="OnUse" targettype="Parent">
         <Conditional hastag="eq accordion" targetcontainer="true" />
-        <sound file="%ModDir%/audio/accordion/accordion-dogsong.ogg" type="OnUse" range="300" loop="true" volume="0.2" />
+        <sound file="%ModDir%/audio/accordion/accordion-dogsong.ogg" type="OnUse" range="300" loop="true" volume="0.5" />
       </StatusEffect>
       <StatusEffect type="OnUse" targettype="This">
         <Conditional condition="lt 60" targetcontainer="true" />
