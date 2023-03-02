@@ -23,7 +23,7 @@
             <Containable items="chorus-booknotes"></Containable>
         </ItemContainer>
     </Item>
-    <Item name="(Chorus Book) Ievan Polkka" description="By Loituma" identifier="chorus-book-ievan-polkka" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Chorus Book) Ievan Polkka" description="By Loituma" identifier="chorus-book-ievan-polkka" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -71,7 +71,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Chorus Book) Space Oddity" description="By David Bowie" identifier="chorus-book-space-oddity" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Chorus Book) Space Oddity" description="By David Bowie" identifier="chorus-book-space-oddity" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -119,7 +119,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Chorus Book) Wellermann" description="By The Longest Johns" identifier="chorus-book-wellermann" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Chorus Book) Wellermann" description="By The Longest Johns" identifier="chorus-book-wellermann" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -167,7 +167,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Chorus Book) Drunken Sailor" description="By Colm McGuinness" identifier="chorus-book-drunken-sailor" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Chorus Book) Drunken Sailor" description="By Colm McGuinness" identifier="chorus-book-drunken-sailor" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -215,7 +215,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Chorus Book) We All Lift Together" description="From Warframe" identifier="chorus-book-we-all-lift-together" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Chorus Book) We All Lift Together" description="From Warframe" identifier="chorus-book-we-all-lift-together" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -263,7 +263,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Chorus Book) Misty Mountains" description="From The Hobbit" identifier="chorus-book-misty-mountains" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Chorus Book) Misty Mountains" description="From The Hobbit" identifier="chorus-book-misty-mountains" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -311,7 +311,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Chorus Book) Hanging Johnny" description="By Colm McGuinness" identifier="chorus-book-hanging-johnny" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Chorus Book) Hanging Johnny" description="By Colm McGuinness" identifier="chorus-book-hanging-johnny" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -359,7 +359,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Chorus Book) Sleeping in The Cold Below" description="From Warframe" identifier="chorus-book-sleeping-in-the-cold-below" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Chorus Book) Sleeping in The Cold Below" description="From Warframe" identifier="chorus-book-sleeping-in-the-cold-below" category="Misc" maxstacksize="1" Tags="smallitem,chorus-booknotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>

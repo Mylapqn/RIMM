@@ -43,7 +43,7 @@
             <Containable items="guitarnotes, bikehorn"/>
         </ItemContainer>
     </Item>
-    <Item name="(Guitar) Inspector Gadget" description="From Inspector Gadget" identifier="guitar-inspector-gadget" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) Inspector Gadget" description="From Inspector Gadget" identifier="guitar-inspector-gadget" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -91,7 +91,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Guitar) Crazy Frog" description="By Crazy Frog" identifier="guitar-crazy-frog" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) Crazy Frog" description="By Crazy Frog" identifier="guitar-crazy-frog" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -139,7 +139,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Guitar) Ievan Polkka" description="By Loituma" identifier="guitar-ievan-polkka" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) Ievan Polkka" description="By Loituma" identifier="guitar-ievan-polkka" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -187,7 +187,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Guitar) Seven Nation Army" description="By The White Stripes" identifier="guitar-seven-nation-army" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) Seven Nation Army" description="By The White Stripes" identifier="guitar-seven-nation-army" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -235,7 +235,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Guitar) Space Oddity" description="By David Bowie" identifier="guitar-space-oddity" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) Space Oddity" description="By David Bowie" identifier="guitar-space-oddity" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -283,7 +283,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Guitar) Renai Circulation" description="From Bakemonogatari" identifier="guitar-renai-circulation" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) Renai Circulation" description="From Bakemonogatari" identifier="guitar-renai-circulation" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -331,7 +331,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Guitar) Ceta" description="From RimWorld" identifier="guitar-ceta" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) Ceta" description="From RimWorld" identifier="guitar-ceta" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -379,7 +379,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Guitar) Time" description="From Inception" identifier="guitar-time" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) Time" description="From Inception" identifier="guitar-time" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -427,7 +427,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Guitar) Legend of Korra" description="From Legend Of Korra" identifier="guitar-legend-of-korra" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) Legend of Korra" description="From Legend Of Korra" identifier="guitar-legend-of-korra" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -475,7 +475,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Guitar) The Mandalorian" description="From The Mandalorian" identifier="guitar-the-mandalorian" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) The Mandalorian" description="From The Mandalorian" identifier="guitar-the-mandalorian" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -523,7 +523,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Guitar) Toss A Coin To Your Witcher" description="From The Witcher" identifier="guitar-toss-a-coin-to-your-witcher" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) Toss A Coin To Your Witcher" description="From The Witcher" identifier="guitar-toss-a-coin-to-your-witcher" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -571,7 +571,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Guitar) Hide Your Tears" description="From Dexter" identifier="guitar-hide-your-tears" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Guitar) Hide Your Tears" description="From Dexter" identifier="guitar-hide-your-tears" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -619,4 +619,150 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
+
+    <Item name="(Guitar) Dwarf Fortress Theme" description="From Dwarf Fortress" identifier="guitar-dwarf-fortress-theme" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
+        <Price baseprice="50" minavailable="1">
+            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
+            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
+            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+        </Price>
+        <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="60,0,60,60" origin="0.5,0.5"/>
+        <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="60,0,60,60" depth="0.5" origin="0.5,0.5"/>
+        <Body width="24" height="24"/>
+        <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" removecontaineditemsondeconstruct="true">
+            <StatusEffect type="OnUse" targettype="Contained">
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="50" setvalue="true">
+                <Conditional hastag="!eq guitar" targetcontainer="true"/>
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="100" setvalue="true">
+                <Conditional hastag="eq guitar" targetcontainer="true"/>
+                <SpawnItem identifiers="rimm-guitar-song-dwarf-fortress-theme" spawnposition="ThisInventory"/>
+            </StatusEffect>
+            <StatusEffect type="OnNotContained" targettype="Contained">
+                <Remove />
+            </StatusEffect>
+            <Containable items="song"/>
+        </ItemContainer>
+    </Item>
+    <Item name="Song: Dwarf Fortress Theme" identifier="rimm-guitar-song-dwarf-fortress-theme" Tags="song" category="Misc">
+        <Sprite texture="Content/Items/Electricity/signalcomp.png" depth="0.8" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <Body width="48" height="48"/>
+        <InventoryIcon texture="Content/Items/Electricity/signalcomp.png" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <ItemComponent>
+            <StatusEffect type="OnUse" targettype="Parent">
+                <Conditional hastag="eq guitar" targetcontainer="true"/>
+                <sound file="%ModDir%/audio/guitar/guitar-dwarf-fortress-theme.ogg" type="OnUse" loop="true" volume="1"/>
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="This">
+                <Conditional condition="lt 60" targetcontainer="true"/>
+                <Remove/>
+            </StatusEffect>
+        </ItemComponent>
+    </Item>
+    <Item name="(Guitar) The Last of Us" description="From The Last of Us" identifier="guitar-the-last-of-us" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
+        <Price baseprice="50" minavailable="1">
+            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
+            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
+            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+        </Price>
+        <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="60,0,60,60" origin="0.5,0.5"/>
+        <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="60,0,60,60" depth="0.5" origin="0.5,0.5"/>
+        <Body width="24" height="24"/>
+        <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" removecontaineditemsondeconstruct="true">
+            <StatusEffect type="OnUse" targettype="Contained">
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="50" setvalue="true">
+                <Conditional hastag="!eq guitar" targetcontainer="true"/>
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="100" setvalue="true">
+                <Conditional hastag="eq guitar" targetcontainer="true"/>
+                <SpawnItem identifiers="rimm-guitar-song-the-last-of-us" spawnposition="ThisInventory"/>
+            </StatusEffect>
+            <StatusEffect type="OnNotContained" targettype="Contained">
+                <Remove />
+            </StatusEffect>
+            <Containable items="song"/>
+        </ItemContainer>
+    </Item>
+    <Item name="Song: The Last of Us" identifier="rimm-guitar-song-the-last-of-us" Tags="song" category="Misc">
+        <Sprite texture="Content/Items/Electricity/signalcomp.png" depth="0.8" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <Body width="48" height="48"/>
+        <InventoryIcon texture="Content/Items/Electricity/signalcomp.png" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <ItemComponent>
+            <StatusEffect type="OnUse" targettype="Parent">
+                <Conditional hastag="eq guitar" targetcontainer="true"/>
+                <sound file="%ModDir%/audio/guitar/guitar-the-last-of-us.ogg" type="OnUse" loop="true" volume="1"/>
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="This">
+                <Conditional condition="lt 60" targetcontainer="true"/>
+                <Remove/>
+            </StatusEffect>
+        </ItemComponent>
+    </Item>
+    <Item name="(Guitar) Meet the Engineer" description="From Team Fortress 2" identifier="guitar-meet-the-engineer" category="Misc" maxstacksize="1" Tags="smallitem,guitarnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
+        <Price baseprice="50" minavailable="1">
+            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
+            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
+            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+        </Price>
+        <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="60,0,60,60" origin="0.5,0.5"/>
+        <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="60,0,60,60" depth="0.5" origin="0.5,0.5"/>
+        <Body width="24" height="24"/>
+        <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" removecontaineditemsondeconstruct="true">
+            <StatusEffect type="OnUse" targettype="Contained">
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="50" setvalue="true">
+                <Conditional hastag="!eq guitar" targetcontainer="true"/>
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="100" setvalue="true">
+                <Conditional hastag="eq guitar" targetcontainer="true"/>
+                <SpawnItem identifiers="rimm-guitar-song-meet-the-engineer" spawnposition="ThisInventory"/>
+            </StatusEffect>
+            <StatusEffect type="OnNotContained" targettype="Contained">
+                <Remove />
+            </StatusEffect>
+            <Containable items="song"/>
+        </ItemContainer>
+    </Item>
+    <Item name="Song: Meet the Engineer" identifier="rimm-guitar-song-meet-the-engineer" Tags="song" category="Misc">
+        <Sprite texture="Content/Items/Electricity/signalcomp.png" depth="0.8" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <Body width="48" height="48"/>
+        <InventoryIcon texture="Content/Items/Electricity/signalcomp.png" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <ItemComponent>
+            <StatusEffect type="OnUse" targettype="Parent">
+                <Conditional hastag="eq guitar" targetcontainer="true"/>
+                <sound file="%ModDir%/audio/guitar/guitar-meet-the-engineer.ogg" type="OnUse" loop="true" volume="1"/>
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="This">
+                <Conditional condition="lt 60" targetcontainer="true"/>
+                <Remove/>
+            </StatusEffect>
+        </ItemComponent>
+    </Item>
+
 </Override>

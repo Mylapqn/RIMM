@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="[Music mod] RIMM Reworked" modversion="1.0.3" corepackage="False" steamworkshopid="2728646394" gameversion="0.17.16.0" altnames="RIMM Reworked">
+<contentpackage name="[Music mod] RIMM Reworked" modversion="1.0.5" corepackage="False" steamworkshopid="2728646394" gameversion="0.19.11.0" altnames="RIMM Reworked">
   <Item file="%ModDir%/accordion.xml" />
   <Item file="%ModDir%/cassette-player.xml" />
   <Item file="%ModDir%/chorus-book.xml" />
   <Item file="%ModDir%/guitar.xml" />
   <Item file="%ModDir%/harmonica.xml" />
+  <Item file="%ModDir%/music-sheet-folder.xml" />
   <Other file="%ModDir%/audio/clownguitar.ogg" />
   <Other file="%ModDir%/graphics/CassetteAtlas.png" />
   <Other file="%ModDir%/graphics/CassettePlayer.png" />
   <Other file="%ModDir%/graphics/ChorusInv.png" />
   <Other file="%ModDir%/graphics/ChorusSprite.png" />
   <Other file="%ModDir%/graphics/NotesAtlas.png" />
+  <Other file="%ModDir%/graphics/NoteFolder.png" />
   <Other file="%ModDir%/audio/accordion/accordion-amusement-park.ogg" />
   <Other file="%ModDir%/audio/accordion/accordion-dogsong.ogg" />
   <Other file="%ModDir%/audio/accordion/accordion-gangsta-paradise.ogg" />

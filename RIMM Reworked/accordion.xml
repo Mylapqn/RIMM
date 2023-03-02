@@ -37,7 +37,7 @@
             <Containable items="accordionnotes"></Containable>
         </ItemContainer>
     </Item>
-    <Item name="(Accordion) Gangsta's Paradise" description="By Coolio" identifier="accordion-gangsta-paradise" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) Gangsta's Paradise" description="By Coolio" identifier="accordion-gangsta-paradise" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -85,7 +85,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Accordion) Kazotsky" description="By Unknown" identifier="accordion-kazotsky" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) Kazotsky" description="By Unknown" identifier="accordion-kazotsky" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -133,7 +133,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Accordion) No Time for Caution" description="From Interstellar" identifier="accordion-no-time-for-caution" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) No Time for Caution" description="From Interstellar" identifier="accordion-no-time-for-caution" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -181,7 +181,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Accordion) Papers, Please" description="From Papers, Please" identifier="accordion-papers-please" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) Papers, Please" description="From Papers, Please" identifier="accordion-papers-please" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -229,7 +229,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Accordion) Amusement Park" description="From Nier: Automata" identifier="accordion-amusement-park" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) Amusement Park" description="From Nier: Automata" identifier="accordion-amusement-park" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -277,7 +277,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Accordion) Gate of Steiner" description="From Steins; Gate" identifier="accordion-gate-of-steiner" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) Gate of Steiner" description="From Steins; Gate" identifier="accordion-gate-of-steiner" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -325,7 +325,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Accordion) Kalinka" description="By theonewhoCheekiBreeki" identifier="accordion-kalinka" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) Kalinka" description="By theonewhoCheekiBreeki" identifier="accordion-kalinka" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -373,7 +373,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Accordion) Kass' theme" description="From The Legend of Zelda: BOTW" identifier="accordion-kass-theme" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) Kass' theme" description="From The Legend of Zelda: BOTW" identifier="accordion-kass-theme" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -421,7 +421,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Accordion) Imperial March" description="From Star Wars" identifier="accordion-imperial-march" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) Imperial March" description="From Star Wars" identifier="accordion-imperial-march" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -469,7 +469,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Accordion) Dogsong" description="From Undertale" identifier="accordion-dogsong" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) Dogsong" description="From Undertale" identifier="accordion-dogsong" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -517,7 +517,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Accordion) Katyusha" description="By The Red Army Choir" identifier="accordion-katyusha" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) Katyusha" description="By The Red Army Choir" identifier="accordion-katyusha" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -565,7 +565,7 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Accordion) Song of Storms" description="From The Legend of Zelda: BOTW" identifier="accordion-song-of-storms" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+    <Item name="(Accordion) Song of Storms" description="From The Legend of Zelda: BOTW" identifier="accordion-song-of-storms" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
         <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
         <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
@@ -606,6 +606,102 @@
             <StatusEffect type="OnUse" targettype="Parent">
                 <Conditional hastag="eq accordion" targetcontainer="true"/>
                 <sound file="%ModDir%/audio/accordion/accordion-song-of-storms.ogg" type="OnUse" loop="true" volume="1"/>
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="This">
+                <Conditional condition="lt 60" targetcontainer="true"/>
+                <Remove/>
+            </StatusEffect>
+        </ItemComponent>
+    </Item>
+    <Item name="(Accordion) Song for Denise" description="From Piano Fantasia" identifier="accordion-song-for-denise" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
+        <Price baseprice="50" minavailable="1">
+            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
+            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
+            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+        </Price>
+        <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="60,60,60,60" origin="0.5,0.5"/>
+        <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="60,60,60,60" depth="0.5" origin="0.5,0.5"/>
+        <Body width="24" height="24"/>
+        <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" removecontaineditemsondeconstruct="true">
+            <StatusEffect type="OnUse" targettype="Contained">
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="50" setvalue="true">
+                <Conditional hastag="!eq accordion" targetcontainer="true"/>
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="100" setvalue="true">
+                <Conditional hastag="eq accordion" targetcontainer="true"/>
+                <SpawnItem identifiers="rimm-accordion-song-song-for-denise" spawnposition="ThisInventory"/>
+            </StatusEffect>
+            <StatusEffect type="OnNotContained" targettype="Contained">
+                <Remove />
+            </StatusEffect>
+            <Containable items="song"/>
+        </ItemContainer>
+    </Item>
+    <Item name="Song: Song for Denise" identifier="rimm-accordion-song-song-for-denise" Tags="song" category="Misc">
+        <Sprite texture="Content/Items/Electricity/signalcomp.png" depth="0.8" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <Body width="48" height="48"/>
+        <InventoryIcon texture="Content/Items/Electricity/signalcomp.png" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <ItemComponent>
+            <StatusEffect type="OnUse" targettype="Parent">
+                <Conditional hastag="eq accordion" targetcontainer="true"/>
+                <sound file="%ModDir%/audio/accordion/accordion-song-for-denise.ogg" type="OnUse" loop="true" volume="1"/>
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="This">
+                <Conditional condition="lt 60" targetcontainer="true"/>
+                <Remove/>
+            </StatusEffect>
+        </ItemComponent>
+    </Item>
+    <Item name="(Accordion) Mission: Impossible" description="From Mission: Impossible" identifier="accordion-mission:-impossible" category="Misc" maxstacksize="1" Tags="smallitem,accordionnotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
+        <Price baseprice="50" minavailable="1">
+            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
+            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
+            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+        </Price>
+        <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="60,60,60,60" origin="0.5,0.5"/>
+        <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="60,60,60,60" depth="0.5" origin="0.5,0.5"/>
+        <Body width="24" height="24"/>
+        <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect"/>
+        <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" canbecombined="true" removecontaineditemsondeconstruct="true">
+            <StatusEffect type="OnUse" targettype="Contained">
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="50" setvalue="true">
+                <Conditional hastag="!eq accordion" targetcontainer="true"/>
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="100" setvalue="true">
+                <Conditional hastag="eq accordion" targetcontainer="true"/>
+                <SpawnItem identifiers="rimm-accordion-song-mission:-impossible" spawnposition="ThisInventory"/>
+            </StatusEffect>
+            <StatusEffect type="OnNotContained" targettype="Contained">
+                <Remove />
+            </StatusEffect>
+            <Containable items="song"/>
+        </ItemContainer>
+    </Item>
+    <Item name="Song: Mission: Impossible" identifier="rimm-accordion-song-mission:-impossible" Tags="song" category="Misc">
+        <Sprite texture="Content/Items/Electricity/signalcomp.png" depth="0.8" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <Body width="48" height="48"/>
+        <InventoryIcon texture="Content/Items/Electricity/signalcomp.png" sourcerect="0,160,4,4" origin="0.5,0.5"/>
+        <ItemComponent>
+            <StatusEffect type="OnUse" targettype="Parent">
+                <Conditional hastag="eq accordion" targetcontainer="true"/>
+                <sound file="%ModDir%/audio/accordion/accordion-mission:-impossible.ogg" type="OnUse" loop="true" volume="1"/>
             </StatusEffect>
             <StatusEffect type="OnUse" targettype="This">
                 <Conditional condition="lt 60" targetcontainer="true"/>
