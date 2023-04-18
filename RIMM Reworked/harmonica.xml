@@ -1,15 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Override>maxstacksize="1"
+<Override>
     <Item name="" identifier="harmonica" category="Misc" Tags="smallitem, harmonica" scale="0.5" description="" price="300" impactsoundtag="impact_metal_light" isshootable="true" HideConditionBar="true">
         <Upgrade gameversion="0.15.13.0" scale="0.5"/>
         <PreferredContainer primary="crewcab" spawnprobability="0.01"/>
         <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.1"/>
+<<<<<<< Updated upstream
+        <Price baseprice="50" soldeverywhere="false">
+            <Price locationtype="outpost" multiplier="1" minavailable="1" maxavailable="2"/>
+            <Price locationtype="city" multiplier="1" minavailable="1" maxavailable="2"/>
+            <Price locationtype="research" multiplier="1" sold="false"/>
+            <Price locationtype="military" multiplier="1" sold="false"/>
+            <Price locationtype="mine" multiplier="1" sold="false"/>
+=======
         <Price baseprice="100" minavailable="1">
-            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" maxavailable="2"/>
-            <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" maxavailable="2"/>
-            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantMusic" multiplier="1" minavailable="1" maxavailable="2"/> <!--Made only avaliable for custom trader-->
+>>>>>>> Stashed changes
         </Price>
         <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,256,64,64" origin="0.5,0.5"/>
         <Sprite texture="Content/Items/Misc/Misc.png" sourcerect="102,16,58,21" depth="0.5" origin="0.5,0.5"/>
@@ -38,16 +43,12 @@
             <Containable items="harmonicanotes"></Containable>
         </ItemContainer>
     </Item>
-    <Item name="(Harmonica) Harmonica Beatbox" description="By Unknown" identifier="harmonica-harmonica-beatbox" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
-        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
-        <Price baseprice="50" minavailable="1">
-            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
-            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
-            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+
+    <Item name="(Harmonica) Harmonica Beatbox" description="By Unknown" identifier="harmonica-harmonica-beatbox" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
+        <Price baseprice="50" soldeverywhere="false">
+            <Price storeidentifier="merchantMusic" multiplier="1" minavailable="1" maxavailable="2"/>
         </Price>
         <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" origin="0.5,0.5"/>
         <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" depth="0.5" origin="0.5,0.5"/>
@@ -86,16 +87,11 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Harmonica) Jurassic Park" description="From Jurassic Park" identifier="harmonica-jurassic-park" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
-        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
-        <Price baseprice="50" minavailable="1">
-            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
-            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
-            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+    <Item name="(Harmonica) Jurassic Park" description="From Jurassic Park" identifier="harmonica-jurassic-park" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
+        <Price baseprice="50" soldeverywhere="false">
+            <Price storeidentifier="merchantMusic" multiplier="1" minavailable="1" maxavailable="2"/>
         </Price>
         <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" origin="0.5,0.5"/>
         <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" depth="0.5" origin="0.5,0.5"/>
@@ -134,16 +130,11 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Harmonica) Vabank" description="By Unknown" identifier="harmonica-vabank" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
-        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
-        <Price baseprice="50" minavailable="1">
-            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
-            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
-            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+    <Item name="(Harmonica) Vabank" description="By Unknown" identifier="harmonica-vabank" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
+        <Price baseprice="50" soldeverywhere="false">
+            <Price storeidentifier="merchantMusic" multiplier="1" minavailable="1" maxavailable="2"/>
         </Price>
         <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" origin="0.5,0.5"/>
         <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" depth="0.5" origin="0.5,0.5"/>
@@ -182,16 +173,12 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Harmonica) Cruel Angel's Thesis" description="From Neon Genesis Evangelion" identifier="harmonica-cruel-angel-thesis" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
-        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
-        <Price baseprice="50" minavailable="1">
-            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
-            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
-            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+
+    <Item name="(Harmonica) Cruel Angel's Thesis" description="From Neon Genesis Evangelion" identifier="harmonica-cruel-angel-thesis" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
+        <Price baseprice="50" soldeverywhere="false">
+            <Price storeidentifier="merchantMusic" multiplier="1" minavailable="1" maxavailable="2"/>
         </Price>
         <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" origin="0.5,0.5"/>
         <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" depth="0.5" origin="0.5,0.5"/>
@@ -230,16 +217,12 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Harmonica) The Entertainer" description="By Scott Joplin" identifier="harmonica-entertainer" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
-        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
-        <Price baseprice="50" minavailable="1">
-            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
-            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
-            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+
+    <Item name="(Harmonica) The Entertainer" description="By Scott Joplin" identifier="harmonica-entertainer" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
+        <Price baseprice="50" soldeverywhere="false">
+            <Price storeidentifier="merchantMusic" multiplier="1" minavailable="1" maxavailable="2"/>
         </Price>
         <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" origin="0.5,0.5"/>
         <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" depth="0.5" origin="0.5,0.5"/>
@@ -278,16 +261,12 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Harmonica) Korobushka" description="By Sergej Graf" identifier="harmonica-korobushka" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
-        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
-        <Price baseprice="50" minavailable="1">
-            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
-            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
-            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+
+    <Item name="(Harmonica) Korobushka" description="By Sergej Graf" identifier="harmonica-korobushka" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
+        <Price baseprice="50" soldeverywhere="false">
+            <Price storeidentifier="merchantMusic" multiplier="1" minavailable="1" maxavailable="2"/>
         </Price>
         <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" origin="0.5,0.5"/>
         <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" depth="0.5" origin="0.5,0.5"/>
@@ -326,16 +305,12 @@
             </StatusEffect>
         </ItemComponent>
     </Item>
-    <Item name="(Harmonica) The Force" description="From Star Wars" identifier="harmonica-the-force" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes,musicnotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
-        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
-        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
-        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
-        <Price baseprice="50" minavailable="1">
-            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="-1" maxavailable="1"/>
-            <Price storeidentifier="merchantcity" multiplier="1" minavailable="0" maxavailable="2"/>
-            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
-            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
+
+    <Item name="(Harmonica) The Force" description="From Star Wars" identifier="harmonica-the-force" category="Misc" maxstacksize="1" Tags="smallitem,harmonicanotes" scale="0.5" isshootable="true" cargocontaineridentifier="metalcrate" HideConditionBar="true">
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.05"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.02"/>
+        <Price baseprice="50" soldeverywhere="false">
+            <Price storeidentifier="merchantMusic" multiplier="1" minavailable="1" maxavailable="2"/>
         </Price>
         <InventoryIcon texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" origin="0.5,0.5"/>
         <Sprite texture="%ModDir%/graphics/NotesAtlas.png" sourcerect="0,60,60,60" depth="0.5" origin="0.5,0.5"/>

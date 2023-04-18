@@ -1,0 +1,39 @@
+<!--This file has trader look configuration-->
+<?xml version="1.0" encoding="utf-8"?>
+<npcsets>
+    <npcset identifier="customMerchantMusic">
+        <npc identifier="merchantMusic" job="watchman" healthmultiplier="3" behavior="StayInHull" campaigninteractiontype="Store">
+            <ItemSet>
+                <Item identifier="commonerclothes1" equip="true"/>
+                <Item identifier="ballistichelmet1" equip="true"/>
+                <Item identifier="idcard" equip="true"/>
+                <Item identifier="divingmask">
+                <Item identifier="oxygentank" />
+                </Item>
+            </ItemSet>
+            <ItemSet>
+                <Item identifier="commonerclothes2" equip="true"/>
+                <Item identifier="idcard" equip="true"/>
+                <Item identifier="divingmask">
+                <Item identifier="oxygentank" />
+                </Item>
+            </ItemSet>
+            <ItemSet>
+                <Item identifier="commonerclothes3" equip="true"/>
+                <Item identifier="ballistichelmet1" equip="true"/>
+                <Item identifier="idcard" equip="true"/>
+                <Item identifier="divingmask">
+                <Item identifier="oxygentank" />
+                </Item>
+            </ItemSet>
+            <ItemSet>
+                <Item identifier="commonerclothes3" equip="true"/>
+                <Item identifier="baseballcap" equip="true"/>
+                <Item identifier="idcard" equip="true"/>
+                <Item identifier="divingmask">
+                <Item identifier="oxygentank" />
+                </Item>
+            </ItemSet>
+        </npc>
+    </npcset>
+</npcsets>

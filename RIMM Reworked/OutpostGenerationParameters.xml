@@ -1,0 +1,50 @@
+<!--This file contains outpost generation adjustments-->
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <OutpostConfig
+    identifier="outpost"
+    replaceinradiation="abandonedoutpost"
+    totalmodulecount="6" 
+    appendtoreachtotalmodulecount="false"
+    minhallwaylength="400"
+    allowedlocationtypes="Outpost">
+    <modulecount flag="Airlock" count="1"/>
+    <modulecount flag="EngineeringModule" count="1"/>
+    <modulecount flag="AdminModule" count="1"/>
+    <modulecount flag="CrewModule" count="1"/>
+    <modulecount flag="MedicalModule" count="1"/>
+    <modulecount flag="ClownModule" count="1" order="1" requiredfaction="clowns"/>
+    <modulecount flag="HuskModule" count="1" order="1" requiredfaction="huskcult"/>
+
+    <npcs>
+      <npc from="outpostnpcs1" identifier="outpostmanagercoalition" faction="coalition"/>
+      <npc from="outpostnpcs1" identifier="securitynpccoalition" faction="coalition"/>
+      <npc from="outpostnpcs1" identifier="securitynpccoalition" faction="coalition"/>
+
+      <npc from="outpostnpcs1" identifier="outpostmanagerseparatists" faction="separatists"/>
+      <npc from="outpostnpcs1" identifier="securitynpcseparatists" faction="separatists"/>
+      <npc from="outpostnpcs1" identifier="securitynpcseparatists" faction="separatists"/>
+      
+      <npc from="customMerchantMusic" identifier="merchantMusic" /> <!--This line adds custom trader-->
+      <npc from="outpostnpcs1" identifier="hrmanager"/>
+      <npc from="outpostnpcs1" identifier="subupgradenpc"/>
+      <npc from="outpostnpcs1" identifier="subsalesnpc"/>
+      <npc from="outpostnpcs1" identifier="reactoroperator"/>
+      <npc from="outpostnpcs1" identifier="merchantoutpost"/>
+      <npc from="outpostnpcs1" identifier="merchantmedical"/>
+      <npc from="outpostnpcs1" identifier="merchantengineering"/>
+      <npc from="outpostnpcs1" identifier="outpostdoctor"/>
+      <npc from="outpostnpcs1" identifier="commoner"/>
+      <npc from="outpostnpcs1" identifier="commoner"/>
+      <npc from="outpostnpcs1" identifier="commoner"/>
+
+      <npc from="outpostnpcs1" identifier="clown" faction="clowns"/>
+      <npc from="outpostnpcs1" identifier="clown" faction="clowns"/>
+      <npc from="outpostnpcs1" identifier="merchantclown" faction="clowns"/>
+
+      <npc from="outpostnpcs1" identifier="huskcultist" faction="huskcult"/>
+      <npc from="outpostnpcs1" identifier="huskcultist" faction="huskcult"/>
+      <npc from="outpostnpcs1" identifier="merchanthusk" faction="huskcult"/>
+    </npcs>
+  </OutpostConfig>
+</Override>

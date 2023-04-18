@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="[Music mod] RIMM Reworked" modversion="1.0.5" corepackage="False" steamworkshopid="2728646394" gameversion="0.19.11.0" altnames="RIMM Reworked">
+<contentpackage name="[Music mod] RIMM Reworked" modversion="1.2.0" corepackage="False" gameversion="1.0.8.0" altnames="RIMM Reworked">
+  <OutpostConfig file="%ModDir%/OutpostGenerationParameters.xml" />
+  <NPCSets file="%ModDir%/trader.xml" />
   <Item file="%ModDir%/accordion.xml" />
   <Item file="%ModDir%/cassette-player.xml" />
   <Item file="%ModDir%/chorus-book.xml" />
