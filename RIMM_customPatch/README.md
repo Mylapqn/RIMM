@@ -1,9 +1,9 @@
 # How to make custom datapack for RIMM
-##Software
+## Software
 - **Recommended** Notepad++ or any similar software (VisualStudio code, etc..) for editing .xml files
-##Audio
+## Audio
 - audio needs to be **.ogg** file
-##Fist steps
+## Fist steps
 - Subscribe to [RIMM](https://steamcommunity.com/sharedfiles/filedetails/?id=2728646394) on steam
 - Clone/Download this repository
 - Move/Extract folder RIMM_customPatch to subfolder LocalMods in your Barotrauma home folder (default: C:\Program Files (x86)\Steam\steamapps\common\Barotrauma)
