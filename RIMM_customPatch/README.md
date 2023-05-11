@@ -1,4 +1,4 @@
-# How to make custom datapack for RIMM
+# How to make custom datapack for RIMM (Very WIP)
 ## Software
 - **Recommended** Notepad++ or any similar software (VisualStudio code, etc..) for editing .xml files
 ## Audio
