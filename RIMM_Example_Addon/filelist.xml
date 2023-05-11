@@ -15,7 +15,7 @@
   <Item file="%ModDir%/config/accordion/Ukrainianfolksongs.xml" />
 
   <!--chorus configs-->
-  <Item file="%ModDir%/config/chorus/Sixteenhours.xml" />
+  <Item file="%ModDir%/config/chorus/Sixteentons.xml" />
 
   <!--cassette configs-->
   <Item file="%ModDir%/config/cassette/Submarines.xml" />
