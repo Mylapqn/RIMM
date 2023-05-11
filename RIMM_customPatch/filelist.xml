@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="[RIMM ADDON] Example"
+                modversion="1.0"
+                corepackage="False"
+                gameversion="1.0.13.1"
+                altnames="RIMM example addon">
+
+  <!--harmonica configs-->
+  <Item file="%ModDir%/config/harmonica/Megalovania.xml" />
+
+  <!--guitar configs-->
+  <Item file="%ModDir%/config/guitar/AndrewTateTheme.xml" />
+
+  <!--accordion configs-->
+  <Item file="%ModDir%/config/accordion/Ukrainianfolksongs.xml" />
+
+  <!--chorus configs-->
+  <Item file="%ModDir%/config/chorus/Sixteenhours.xml" />
+
+  <!--cassette configs-->
+  <Item file="%ModDir%/config/cassette/Submarines.xml" />
+
+</contentpackage>
