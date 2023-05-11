@@ -35,17 +35,25 @@
       <Item file="%ModDir%/configs/harmonica/TheEntertainer.xml" />
       <Item file="%ModDir%/configs/harmonica/TheForce.xml" />
       <Item file="%ModDir%/configs/harmonica/Vabank.xml" />
-      
-      
-      
+
+    <!--Chorus configs-->
+    <Item file="%ModDir%/configs/instruments/chorus.xml" />
+      <!--Music-->
+      <Item file="%ModDir%/configs/chorus/DrunkenSailor.xml" />
+      <Item file="%ModDir%/configs/chorus/HangingJohny.xml" />
+      <Item file="%ModDir%/configs/chorus/IevanPolkka.xml" />
+      <Item file="%ModDir%/configs/chorus/MistyMountains.xml" />
+      <Item file="%ModDir%/configs/chorus/SleepingInTheColdBellow.xml" />
+      <Item file="%ModDir%/configs/chorus/SpaceOddity.xml" />
+      <Item file="%ModDir%/configs/chorus/WeAllLiftTogether.xml" />
+      <Item file="%ModDir%/configs/chorus/Wellermann.xml" />
       
 
 
 
   <Item file="%ModDir%/accordion.xml" />
   <Item file="%ModDir%/cassette-player.xml" />
-  <Item file="%ModDir%/chorus-book.xml" />
   
   <!--Misc configs-->
-  <Item file="%ModDir%/configs/miscmusic-sheet-folder.xml" />
+  <Item file="%ModDir%/configs/misc/music-sheet-folder.xml" />
 </contentpackage>

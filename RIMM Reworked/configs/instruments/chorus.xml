@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Item   name="Chorus Book"
+            description="A binder containing song lyrics."
+            identifier="garnet-chorusbook"
+            category="Misc"
+            Tags="smallitem, chorus-book"
+            scale="0.5"
+            price="300"
+            impactsoundtag="impact_metal_light"
+            isshootable="true">
+
+        <PreferredContainer primary="crewcab"
+                            spawnprobability="0.01" />
+        <PreferredContainer primary="abandonedcrewcab"
+                            spawnprobability="0.1" />
+
+        <Price baseprice="50" minavailable="1">
+        <Price      storeidentifier="merchantoutpost"
+                    multiplier="1"
+                    minavailable="1"
+                    maxavailable="2" />
+        <Price      storeidentifier="merchantcity"
+                    multiplier="1"
+                    minavailable="1"
+                    maxavailable="2" />
+        <Price      storeidentifier="merchantresearch"
+                    multiplier="1"
+                    sold="false" />
+        <Price      storeidentifier="merchantmilitary"
+                    multiplier="1"
+                    sold="false" />
+        <Price      storeidentifier="merchantmine"
+                    multiplier="1"
+                    sold="false" />
+        </Price>
+
+        <Upgrade gameversion="0.15.13.0" scale="0.5" />
+        <InventoryIcon  texture="%ModDir%/graphics/ChorusInv.png"
+                        sourcerect="0,0,80,80"
+                        origin="0.5,0.5" />
+        <Sprite texture="%ModDir%/graphics/ChorusSprite.png"
+                sourcerect="0,0,100,72"
+                depth="0.5"
+                origin="0.5,0.9" />
+
+        <Body width="50" height="30" />
+        <Holdable   slots="RightHand+LeftHand,Any"
+                    aimable="false"
+                    aimpos="50,-40"
+                    handle1="-20,0"
+                    handle2="-10,0"
+                    swingamount="50,0"
+                    swingspeed="0.5"
+                    swingwhenusing="true"
+                    msg="ItemMsgPickUpSelect">
+        <StatusEffect type="OnUse" targettype="Contained">
+            <Use />
+        </StatusEffect>
+        </Holdable>
+        <ItemContainer  hideitems="true"
+                        drawinventory="true"
+                        capacity="1"
+                        maxstacksize="1"
+                        slotsperrow="6"
+                        itempos="0,0"
+                        iteminterval="0,0"
+                        itemrotation="0"
+                        canbeselected="false"
+                        containedspritedepth="0.79">
+        <Containable items="chorus-booknotes" />
+        </ItemContainer>
+    </Item>
+</Items>
