@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+    <Item   name=""
+            identifier="guitar"
+            category="Misc"
+            Tags="bigitem, guitar"
+            scale="0.5"
+            description=""
+            price="300"
+            isshootable="true"
+            HideConditionBar="true">
+
+        <Upgrade gameversion="0.15.13.0" scale="0.5" />
+        <PreferredContainer primary="crewcab"
+                            spawnprobability="0.01" />
+        <PreferredContainer primary="abandonedcrewcab"
+                            spawnprobability="0.1" />
+
+        <Price baseprice="100" minavailable="1">
+            <Price  storeidentifier="merchantoutpost"
+                    multiplier="1"
+                    minavailable="1"
+                    maxavailable="2" />
+            <Price  storeidentifier="merchantcity"
+                    multiplier="1"
+                    minavailable="1"
+                    maxavailable="2" />
+            <Price  storeidentifier="merchantresearch"
+                    multiplier="1"
+                    sold="false" />
+            <Price  storeidentifier="merchantmilitary"
+                    multiplier="1"
+                    sold="false" />
+            <Price  storeidentifier="merchantmine"
+                    multiplier="1"
+                    sold="false" />
+        </Price>
+
+        <InventoryIcon  texture="Content/Items/InventoryIconAtlas.png"
+                        sourcerect="512,256,64,64"
+                        origin="0.5,0.5" />
+        <Sprite texture="Content/Items/Misc/Misc.png"
+                sourcerect="0,0,97,254"
+                depth="0.5"
+                origin="0.5,0.5" />
+        <Body radius="40" height="160" density="12" />
+
+        <RangedWeapon reload="1" />
+        <Holdable   slots="RightHand+LeftHand"
+                    controlpose="true"
+                    aimpos="50,0"
+                    handle1="-2,0"
+                    handle2="10,50"
+                    swingamount="10,20"
+                    swingspeed="1"
+                    swingwhenusing="true"
+                    msg="ItemMsgPickUpSelect">
+
+        <StatusEffect type="OnUse" targettype="Contained">
+            <Conditional hastag="eq guitarnotes" />
+            <Use />
+        </StatusEffect>
+        <StatusEffect type="Always" targettype="This" condition="50" setvalue="true" />
+        <StatusEffect type="Always" targettype="This" condition="100" setvalue="true">
+            <RequiredItem items="guitarnotes, bikehorn" type="Contained" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="This">
+            <Conditional condition="lt 99" />
+            <sound  file="Content/Items/Misc/Guitar1.ogg"
+                    type="OnUse"
+                    selectionmode="CharacterSpecific"
+                    loop="true"
+                    volume="1.3" />
+            <sound  file="Content/Items/Misc/Guitar2.ogg"
+                    type="OnUse"
+                    selectionmode="CharacterSpecific"
+                    loop="true"
+                    volume="1.3" />
+            <sound  file="Content/Items/Misc/Guitar3.ogg"
+                    type="OnUse"
+                    selectionmode="CharacterSpecific"
+                    loop="true"
+                    volume="1.3" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="This">
+            <Conditional condition="100" />
+            <RequiredItem items="bikehorn" type="Contained" />
+            <sound  file="Content/Items/Misc/GuitarClown.ogg"
+                    type="OnUse"
+                    selectionmode="CharacterSpecific"
+                    loop="true"
+                    volume="1.3" />
+        </StatusEffect>
+        </Holdable>
+
+        <ItemContainer  hideitems="true"
+                        drawinventory="true"
+                        capacity="1"
+                        maxstacksize="1"
+                        slotsperrow="6"
+                        itempos="0,0"
+                        iteminterval="0,0"
+                        itemrotation="0"
+                        canbeselected="false"
+                        containedspritedepth="0.79">
+        <Containable items="guitarnotes, bikehorn" />
+        </ItemContainer>
+    </Item>
+</Override>
