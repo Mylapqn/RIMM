@@ -45,6 +45,7 @@
   <Item file="%ModDir%/accordion.xml" />
   <Item file="%ModDir%/cassette-player.xml" />
   <Item file="%ModDir%/chorus-book.xml" />
-  <Item file="%ModDir%/music-sheet-folder.xml" />
-
+  
+  <!--Misc configs-->
+  <Item file="%ModDir%/configs/miscmusic-sheet-folder.xml" />
 </contentpackage>

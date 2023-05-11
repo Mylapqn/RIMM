@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Music sheet folder"
+        description="A folder for storing music sheets."
+        identifier="rimm-musicfolder"
+        category="Misc"
+        Tags="smallitem, musicfolder, mobilecontainer"
+        showcontentsintooltip="true"
+        scale="0.5"
+        price="50"
+        impactsoundtag="impact_soft">
+
+    <PreferredContainer primary="crewcab"
+                        spawnprobability="0.005" />
+    <PreferredContainer primary="abandonedcrewcab"
+                        spawnprobability="0.05" />
+
+    <Price baseprice="50" minavailable="1">
+      <Price  storeidentifier="merchantoutpost"
+              multiplier="1"
+              minavailable="1"
+              maxavailable="2" />
+      <Price  storeidentifier="merchantcity"
+              multiplier="1"
+              minavailable="1"
+              maxavailable="2" />
+      <Price  storeidentifier="merchantresearch"
+              multiplier="1"
+              sold="false" />
+      <Price  storeidentifier="merchantmilitary"
+              multiplier="1"
+              sold="false" />
+      <Price  storeidentifier="merchantmine"
+              multiplier="1"
+              sold="false" />
+    </Price>
+
+    <Deconstruct time="15">
+      <RequiredItem identifier="organicfiber" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+      <RequiredSkill identifier="electrical" level="15" />
+      <RequiredItem identifier="organicfiber" amount="2" />
+    </Fabricate>
+
+    <Upgrade gameversion="0.15.13.0" scale="0.5" />
+    <InventoryIcon  texture="%ModDir%/graphics/NoteFolder.png"
+                    sourcerect="0,0,60,60"
+                    origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/graphics/NoteFolder.png"
+            sourcerect="0,0,60,60"
+            depth="0.5"
+            origin="0.5,0.5" />
+    <Body width="60" height="60" />
+    <Holdable slots="RightHand,LeftHand,Any" msg="ItemMsgPickUpSelect" holdangle="40" handle1="0,10" />
+    <ItemContainer capacity="16" slotsperrow="4">
+      <Containable items="musicnotes"></Containable>
+    </ItemContainer>
+  </Item>
+</Items>
