@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="[Music mod] RIMM Reworked"
-                modversion="1.1.2"
+                modversion="1.2"
                 corepackage="False"
                 steamworkshopid="2728646394"
                 gameversion="1.0.13.1"
@@ -25,16 +25,26 @@
     <Item file="%ModDir%/configs/guitar/Time.xml" />
     <Item file="%ModDir%/configs/guitar/TossACoinToWitcher.xml" />
     
-    
-
-
+    <!--Harmonica configs-->
+    <Item file="%ModDir%/configs/instruments/harmonica.xml" />
+      <!--Music-->
+      <Item file="%ModDir%/configs/harmonica/CruelAngelThesis.xml" />
+      <Item file="%ModDir%/configs/harmonica/HarmonicaBeatbox.xml" />
+      <Item file="%ModDir%/configs/harmonica/JurassicPark.xml" />
+      <Item file="%ModDir%/configs/harmonica/Krobushka.xml" />
+      <Item file="%ModDir%/configs/harmonica/TheEntertainer.xml" />
+      <Item file="%ModDir%/configs/harmonica/TheForce.xml" />
+      <Item file="%ModDir%/configs/harmonica/Vabank.xml" />
+      
+      
+      
+      
 
 
 
   <Item file="%ModDir%/accordion.xml" />
   <Item file="%ModDir%/cassette-player.xml" />
   <Item file="%ModDir%/chorus-book.xml" />
-  <Item file="%ModDir%/harmonica.xml" />
   <Item file="%ModDir%/music-sheet-folder.xml" />
 
 </contentpackage>

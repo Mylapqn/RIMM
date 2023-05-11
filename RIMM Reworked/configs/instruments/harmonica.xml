@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+    <Item   name="" 
+            identifier="harmonica" 
+            category="Misc" 
+            Tags="smallitem, harmonica" 
+            scale="0.5" 
+            description="" 
+            price="300" 
+            impactsoundtag="impact_metal_light" 
+            isshootable="true" 
+            HideConditionBar="true">
+        
+        <Upgrade gameversion="0.15.13.0" scale="0.5" />
+        <PreferredContainer primary="crewcab"
+                            spawnprobability="0.01" />
+        <PreferredContainer primary="abandonedcrewcab"
+                            spawnprobability="0.1" />
+        
+        <Price baseprice="100" minavailable="1">
+            <Price  storeidentifier="merchantoutpost"
+                    multiplier="1"
+                    minavailable="1"
+                    maxavailable="2" />
+            <Price  storeidentifier="merchantcity"
+                    multiplier="1"
+                    minavailable="1"
+                    maxavailable="2" />
+            <Price  storeidentifier="merchantresearch"
+                    multiplier="1"
+                    sold="false" />
+            <Price  storeidentifier="merchantmilitary"
+                    multiplier="1"
+                    sold="false" />
+            <Price  storeidentifier="merchantmine"
+                    multiplier="1"
+                    sold="false" />
+        </Price>
+        
+        <InventoryIcon  texture="Content/Items/InventoryIconAtlas.png"
+                        sourcerect="576,256,64,64"
+                        origin="0.5,0.5" />
+        <Sprite texture="Content/Items/Misc/Misc.png"
+                sourcerect="102,16,58,21"
+                depth="0.5"
+                origin="0.5,0.5" />
+        <Body width="58" height="20" />
+        
+        <RangedWeapon reload="1" />
+        <Holdable   slots="RightHand+LeftHand,Any" 
+                    aimable="false" 
+                    aimpos="20,20" 
+                    handle1="-5,0" 
+                    handle2="5,0" 
+                    swingamount="20,0" 
+                    swingspeed="1" 
+                    swingwhenusing="true" 
+                    msg="ItemMsgPickUpSelect">
+            
+            <StatusEffect type="OnUse" targettype="Contained">
+                <Conditional hastag="eq harmonicanotes" />
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="Always" targettype="This" condition="50" setvalue="true">
+            </StatusEffect>
+            <StatusEffect type="Always" targettype="This" condition="100" setvalue="true">
+                <RequiredItem items="harmonicanotes" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" target="This">
+                <Conditional condition="lt 99" />
+                <sound  file="Content/Items/Misc/Harmonica1.ogg"
+                        type="OnUse"
+                        selectionmode="CharacterSpecific"
+                        range="600"
+                        loop="true"
+                        volume="1.5" />
+                <sound  file="Content/Items/Misc/Harmonica2.ogg"
+                        type="OnUse"
+                        range="600"
+                        loop="true"
+                        volume="1.5" />
+            </StatusEffect>
+            <StatusEffect   tags="playingharmonica"
+                            type="OnUse"
+                            target="Character"
+                            duration="0.1"
+                            stackable="false" />
+        </Holdable>
+        
+        <ItemContainer  hideitems="true" 
+                        drawinventory="true" 
+                        capacity="1" 
+                        maxstacksize="1" 
+                        slotsperrow="6" 
+                        itempos="0,0" 
+                        iteminterval="0,0" 
+                        itemrotation="0" 
+                        canbeselected="false" 
+                        containedspritedepth="0.79">
+            <Containable items="harmonicanotes" />
+        </ItemContainer>
+    </Item>
+</Override>
