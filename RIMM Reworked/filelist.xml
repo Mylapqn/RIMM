@@ -25,52 +25,66 @@
     <Item file="%ModDir%/configs/guitar/Time.xml" />
     <Item file="%ModDir%/configs/guitar/TossACoinToWitcher.xml" />
     
-    <!--Harmonica configs-->
-    <Item file="%ModDir%/configs/instruments/harmonica.xml" />
-      <!--Music-->
-      <Item file="%ModDir%/configs/harmonica/CruelAngelThesis.xml" />
-      <Item file="%ModDir%/configs/harmonica/HarmonicaBeatbox.xml" />
-      <Item file="%ModDir%/configs/harmonica/JurassicPark.xml" />
-      <Item file="%ModDir%/configs/harmonica/Krobushka.xml" />
-      <Item file="%ModDir%/configs/harmonica/TheEntertainer.xml" />
-      <Item file="%ModDir%/configs/harmonica/TheForce.xml" />
-      <Item file="%ModDir%/configs/harmonica/Vabank.xml" />
+  <!--Harmonica configs-->
+  <Item file="%ModDir%/configs/instruments/harmonica.xml" />
+    <!--Music-->
+    <Item file="%ModDir%/configs/harmonica/CruelAngelThesis.xml" />
+    <Item file="%ModDir%/configs/harmonica/HarmonicaBeatbox.xml" />
+    <Item file="%ModDir%/configs/harmonica/JurassicPark.xml" />
+    <Item file="%ModDir%/configs/harmonica/Krobushka.xml" />
+    <Item file="%ModDir%/configs/harmonica/TheEntertainer.xml" />
+    <Item file="%ModDir%/configs/harmonica/TheForce.xml" />
+    <Item file="%ModDir%/configs/harmonica/Vabank.xml" />
 
-    <!--Chorus configs-->
-    <Item file="%ModDir%/configs/instruments/chorus.xml" />
-      <!--Music-->
-      <Item file="%ModDir%/configs/chorus/DrunkenSailor.xml" />
-      <Item file="%ModDir%/configs/chorus/HangingJohny.xml" />
-      <Item file="%ModDir%/configs/chorus/IevanPolkka.xml" />
-      <Item file="%ModDir%/configs/chorus/MistyMountains.xml" />
-      <Item file="%ModDir%/configs/chorus/SleepingInTheColdBellow.xml" />
-      <Item file="%ModDir%/configs/chorus/SpaceOddity.xml" />
-      <Item file="%ModDir%/configs/chorus/WeAllLiftTogether.xml" />
-      <Item file="%ModDir%/configs/chorus/Wellermann.xml" />
+  <!--Chorus configs-->
+  <Item file="%ModDir%/configs/instruments/chorus.xml" />
+    <!--Music-->
+    <Item file="%ModDir%/configs/chorus/DrunkenSailor.xml" />
+    <Item file="%ModDir%/configs/chorus/HangingJohny.xml" />
+    <Item file="%ModDir%/configs/chorus/IevanPolkka.xml" />
+    <Item file="%ModDir%/configs/chorus/MistyMountains.xml" />
+    <Item file="%ModDir%/configs/chorus/SleepingInTheColdBellow.xml" />
+    <Item file="%ModDir%/configs/chorus/SpaceOddity.xml" />
+    <Item file="%ModDir%/configs/chorus/WeAllLiftTogether.xml" />
+    <Item file="%ModDir%/configs/chorus/Wellermann.xml" />
       
-    <!--Accordion configs-->
-    <Item file="%ModDir%/configs/instruments/accordion.xml" />
-      <!--Music-->
-      <Item file="%ModDir%/configs/accordion/AmusementPark.xml" />
-      <Item file="%ModDir%/configs/accordion/Dogsong.xml" />
-      <Item file="%ModDir%/configs/accordion/GanstaParadise.xml" />
-      <Item file="%ModDir%/configs/accordion/GateOfSteiner.xml" />
-      <Item file="%ModDir%/configs/accordion/ImperialMarch.xml" />
-      <Item file="%ModDir%/configs/accordion/Kalinka.xml" />
-      <Item file="%ModDir%/configs/accordion/KassTheme.xml" />
-      <Item file="%ModDir%/configs/accordion/Katyusha.xml" />
-      <Item file="%ModDir%/configs/accordion/Kazotsky.xml" />
-      <Item file="%ModDir%/configs/accordion/MissionImpossible.xml" />
-      <Item file="%ModDir%/configs/accordion/NoTimeForCaution.xml" />
-      <Item file="%ModDir%/configs/accordion/PaperPlease.xml" />
-      <Item file="%ModDir%/configs/accordion/SongForDenise.xml" />
-      <Item file="%ModDir%/configs/accordion/SongsOfStorm.xml" />
+  <!--Accordion configs-->
+  <Item file="%ModDir%/configs/instruments/accordion.xml" />
+    <!--Music-->
+    <Item file="%ModDir%/configs/accordion/AmusementPark.xml" />
+    <Item file="%ModDir%/configs/accordion/Dogsong.xml" />
+    <Item file="%ModDir%/configs/accordion/GanstaParadise.xml" />
+    <Item file="%ModDir%/configs/accordion/GateOfSteiner.xml" />
+    <Item file="%ModDir%/configs/accordion/ImperialMarch.xml" />
+    <Item file="%ModDir%/configs/accordion/Kalinka.xml" />
+    <Item file="%ModDir%/configs/accordion/KassTheme.xml" />
+    <Item file="%ModDir%/configs/accordion/Katyusha.xml" />
+    <Item file="%ModDir%/configs/accordion/Kazotsky.xml" />
+    <Item file="%ModDir%/configs/accordion/MissionImpossible.xml" />
+    <Item file="%ModDir%/configs/accordion/NoTimeForCaution.xml" />
+    <Item file="%ModDir%/configs/accordion/PaperPlease.xml" />
+    <Item file="%ModDir%/configs/accordion/SongForDenise.xml" />
+    <Item file="%ModDir%/configs/accordion/SongsOfStorm.xml" />
 
-    <!--Radio configs-->
-    <!--<Item file="%ModDir%/configs/instruments/cassette-player.xml" />-->
-      <!--Music-->
-    <Item file="%ModDir%/cassette-player.xml" />
-  
+  <!--Cassette player configs-->
+  <Item file="%ModDir%/configs/instruments/cassette-player.xml" />
+    <!--Music-->
+    <Item file="%ModDir%/configs/cassette/AbadonShip.xml" />
+    <Item file="%ModDir%/configs/cassette/AnyOldThing.xml" />
+    <Item file="%ModDir%/configs/cassette/BanditRadio.xml" />
+    <Item file="%ModDir%/configs/cassette/Caramelldansen.xml" />
+    <Item file="%ModDir%/configs/cassette/Delight.xml" />
+    <Item file="%ModDir%/configs/cassette/EcstasyOfGold.xml" />
+    <Item file="%ModDir%/configs/cassette/Esprit.xml" />
+    <Item file="%ModDir%/configs/cassette/EveryDayIsNight.xml" />
+    <Item file="%ModDir%/configs/cassette/FlipFlap.xml" />
+    <Item file="%ModDir%/configs/cassette/GoodBadUgly.xml" />
+    <Item file="%ModDir%/configs/cassette/LetsDanceBoys.xml" />
+    <Item file="%ModDir%/configs/cassette/NASA_Europa.xml" />
+    <Item file="%ModDir%/configs/cassette/SpaceOddity.xml" />
+    <Item file="%ModDir%/configs/cassette/YellowSubmarine.xml" />
+      
   <!--Misc configs-->
   <Item file="%ModDir%/configs/misc/music-sheet-folder.xml" />
+
 </contentpackage>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Item   name="(Cassette) Bandit Radio"
+            description="From S.T.A.L.K.E.R.: Clear Sky"
+            identifier="cassette-player-bandit-radio"
+            category="Misc"
+            maxstacksize="6"
+            Tags="smallitem,cassette-playernotes"
+            scale="0.5"
+            isshootable="true"
+            cargocontaineridentifier="metalcrate"
+            HideConditionBar="true">
+
+        <PreferredContainer primary="abandonedcrewcab"
+                            spawnprobability="0.03" />
+        <PreferredContainer secondary="wreckstoragecab"
+                            spawnprobability="0.03" />
+        <PreferredContainer primary="outpostcrewcabinet"
+                            minamount="0"
+                            maxamount="1"
+                            spawnprobability="0.03" />
+
+        <Price baseprice="200" minavailable="1">
+            <Price  storeidentifier="merchantoutpost"
+                    multiplier="1"
+                    minavailable="-1"
+                    maxavailable="1" />
+            <Price  storeidentifier="merchantcity"
+                    multiplier="1"
+                    minavailable="0"
+                    maxavailable="2" />
+            <Price  storeidentifier="merchantresearch"
+                    multiplier="1"
+                    sold="false" />
+            <Price  storeidentifier="merchantmilitary"
+                    multiplier="1"
+                    sold="false" />
+            <Price  storeidentifier="merchantmine"
+                    multiplier="1"
+                    sold="false" />
+        </Price>
+
+        <Deconstruct time="15">
+            <Item identifier="plastic" />
+        </Deconstruct>
+
+        <InventoryIcon  texture="%ModDir%/graphics/CassetteAtlas.png"
+                        sourcerect="0,0,50,32"
+                        origin="0.5,0.5" />
+        <Sprite texture="%ModDir%/graphics/CassetteAtlas.png"
+                sourcerect="0,0,50,32"
+                depth="0.5"
+                origin="0.5,0.5" />
+        <Body width="50" height="35" />
+
+        <Holdable slots="Any,RightHand,LeftHand" msg="ItemMsgPickUpSelect" />
+        <ItemContainer  hideitems="true"
+                        capacity="1"
+                        drawinventory="false"
+                        canbeselected="false"
+                        canbecombined="true"
+                        removecontaineditemsondeconstruct="true">
+            <StatusEffect type="OnUse" targettype="Contained">
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="50" setvalue="true">
+                <Conditional hastag="!eq cassette-player" targetcontainer="true" />
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnContained" targettype="This" condition="100" setvalue="true">
+                <Conditional hastag="eq cassette-player" targetcontainer="true" />
+                <SpawnItem  identifiers="rimm-cassette-player-song-bandit-radio"
+                            spawnposition="ThisInventory" />
+            </StatusEffect>
+            <StatusEffect type="OnNotContained" targettype="Contained">
+                <Remove />
+            </StatusEffect>
+            <Containable items="song" />
+        </ItemContainer>
+    </Item>
+
+    <Item   name="Song: Bandit Radio"
+            identifier="rimm-cassette-player-song-bandit-radio"
+            Tags="song"
+            category="Misc"
+            hideinmenus="true">
+
+        <Sprite texture="Content/Items/Electricity/signalcomp.png"
+                depth="0.8"
+                sourcerect="0,160,4,4"
+                origin="0.5,0.5" />
+        <Body width="48" height="48" />
+        <InventoryIcon  texture="Content/Items/Electricity/signalcomp.png"
+                        sourcerect="0,160,4,4"
+                        origin="0.5,0.5" />
+
+        <ItemComponent>
+            <StatusEffect type="OnUse" targettype="Parent">
+                <Conditional hastag="eq cassette-player" targetcontainer="true" />
+                <sound  file="%ModDir%/audio/cassette-player/cassette-player-bandit-radio.ogg"
+                        type="OnUse"
+                        loop="true"
+                        volume="1" />
+            </StatusEffect>
+            <StatusEffect type="OnUse" targettype="This">
+                <Conditional condition="lt 60" targetcontainer="true" />
+                <Remove />
+            </StatusEffect>
+        </ItemComponent>
+    </Item>
+</Items>
