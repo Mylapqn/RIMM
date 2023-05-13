@@ -8,8 +8,8 @@ Here is list of things you should do before you start working:
 * Install [Barotrauma](https://store.steampowered.com/app/602960/Barotrauma/)
 * Subscribe to [RIMM Reworked on steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2728646394)
 * Download [ffmpeg](https://ffmpeg.org/)
-* Have your audio files ready (Needs to be .ogg).
-    - If your audio file isn't .ogg follow [(Optional) Conversion/Compressing audio files](https://github.com/Mylapqn/RIMM/tree/main/RIMMR%20Example%20Addon#cloning-repository) which can also convert to .ogg
+* Have your audio files ready (Needs to be **.ogg**).
+    - If your audio file isn't **.ogg** follow [(Optional) Conversion/Compressing audio files](https://github.com/Mylapqn/RIMM/tree/main/RIMMR%20Example%20Addon#cloning-repository) which can also convert to .ogg
 
 Optional:
 * Install [notepad++](https://notepad-plus-plus.org/) or something similar (VisualStudio Code, Atom, etc..)
