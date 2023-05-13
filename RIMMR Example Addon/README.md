@@ -4,7 +4,7 @@ This guide should teach you how you can create custom music addon for RIMM.
 Guide was written on Windows 11. Therefore if you are using different OS you might need to make some adjustments according to your OS.
 Also this example will only demonstrate how to make cassette player addon, but same process can be applied to every other instrument.
 
-**Just note that it's my first time making something like this in very limited time span, so if you're having any kind of issues, please open discussion thread on RIMM Reworked workshop page in steam. I will try my best to help you there. Thanks**
+**Just note that it's my first time making something like this in very limited time span, so if you're having any kind of issues, please open discussion thread [here](https://steamcommunity.com/sharedfiles/filedetails/discussions/2975211620) or [here](https://steamcommunity.com/sharedfiles/filedetails/discussions/2728646394). I will try my best to help you there. Thanks**
 
 ## Preparations:
 Here is list of things you should do before you start working:
