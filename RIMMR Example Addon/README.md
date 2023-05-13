@@ -33,8 +33,8 @@ Barotrauma doesn't like "big" audio files. Especially if you're playing in multi
 5. Write `./ffmpeg.exe -y -i input.ogg -af "pan=stereo|c0<c0+c1|c1<c0+c1" -c:a libvorbis -ab 32k -ar 22050 out.ogg`
     - replace **input.ogg** with name of your audio file
         - if your audio is for example **.mp3** this command will convert your audio to .ogg along with compresion
-            - if you want only to convert to .ogg write
-                - `./ffmpeg.exe -i input.mp3 out.ogg` Replace **input.mp3** with your file name.
+            - if you want only to convert to .ogg write `./ffmpeg.exe -i input.mp3 out.ogg`
+                - Replace **input.mp3** with your file name.
 6. Inside folder you should now have new file **out.ogg**
 7. (Optional) For cassette player music run another command
     - `./ffmpeg.exe -y -i out.ogg -c:a libvorbis -ab 32k -ar 11025 radio-out.ogg`
