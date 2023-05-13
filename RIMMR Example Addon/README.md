@@ -18,8 +18,8 @@ Optional:
 3. Navigate to Home directory of Barotrauma. Default: _C:\Program Files (x86)\Steam\steamapps\common\Barotrauma_
 4. Extract downloaded .zip file into **LocalMods**
     - Now you should have 2 new folders in folder **LocalMods**
-        *RIMM Reworked
-        *RIMMR Example Addon
+        * RIMM Reworked
+        * RIMMR Example Addon
 5. Delete **RIMM Reworked** folder
 
 ##Getting audio file ready.
