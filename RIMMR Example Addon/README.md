@@ -50,3 +50,28 @@ Barotrauma doesn't like "big" audio files. Especially if you're playing in multi
 4. Rename duplicate to whatever you want (I will be reffering to this file as **Submarines-duplicate.xml**). It's recommended to use same name as you use on your audio file.
     - After renaming it still **NEEDS TO BE .xml** file
 5. Open **Submarines-duplicate.xml** in your preffered text editor
+
+### Editing config
+We are working inside **Submarines-duplicate.xml**
+
+1. (Optional) Changing name
+    - Locate `name="(Cassette) Submarine"` and replace **(Cassette) Submarine** with whatever you want
+        - This is how item will be named 
+2. (Optional) Item description
+    - Locate `description="From: The Lumineers"` and replace **From: The Lumineers** with whatever you want
+        - We are using this part to give original authors credits
+3. Changind identifier - THIS MUST BE UNIQUE!!
+    - Locate `identifier="EXAMPLE_ADDON-RIMM-cassette-player-Submarines"` and **replace EXAMPLE_ADDON-RIMM-cassette-player-Submarines** with unique ID
+        - Higly recommended to use following template `PREFIX-RIMM-INSTRUMENT-NameOfSong`
+            - PREFIX - your unique ID, can be your nickname, short name of your mod, etc..
+            - RIMM - Refers to RIMM Reworked.
+            - INSTRUMENT - [accordion, cassette-player, chorus-book, guitar, harmonica] or any other custom made instruments
+            - NameOfSong - Recommended to use same as you already filled into name
+        - **identifier MUST BE UNIQUE**. If not unique you will be facing mod conflict issues.
+4. (Optional) Changing spawn probability
+    - Locate `PreferredContainer`. You can edit spawn chances there. Reffer to [Barotrauma modding guide](https://regalis11.github.io/BaroModDoc/ContentTypes/Item.html) for more info.
+5. (Optional) Changing prices
+    - Locate `Price` and change `baseprice`. For any additional info reffer to [Barotrauma modding guide](https://regalis11.github.io/BaroModDoc/ContentTypes/Item.html)
+6. (Optional) Inventory Icon
+    - 
+

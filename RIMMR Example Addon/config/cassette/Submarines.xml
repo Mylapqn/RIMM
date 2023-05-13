@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
     <Item   name="(Cassette) Submarine"
-            qdescription="From: The Lumineers"
+            description="From: The Lumineers"
             identifier="EXAMPLE_ADDON-RIMM-cassette-player-Submarines"
             category="Misc"
             maxstacksize="6"
