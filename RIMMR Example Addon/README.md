@@ -2,6 +2,7 @@
 
 This guide should teach you how you can create custom music addon for RIMM.
 Guide was written on Windows 11. Therefore if you are using different OS you might need to make some adjustments according to your OS.
+Also this example will only demonstrate how to make cassette player addon, but same process can be applied to every other instrument.
 
 ## Preparations:
 Here is list of things you should do before you start working:
@@ -23,6 +24,7 @@ Optional:
         * RIMM Reworked
         * RIMMR Example Addon
 5. Delete **RIMM Reworked** folder
+6. (Optional) Rename **RIMMR Example Addon** to whatever you like. Just note that I will still be reffering to that folder as it is now.
 
 ## (Optional) Conversion/Compressing audio files.
 Barotrauma doesn't like "big" audio files. Especially if you're playing in multiplayer. Using big audio files can cause lags, and players loosing connection. That's why we decided to use compression to make files smaller and keep the audio levels acceptable.
@@ -40,4 +42,11 @@ Barotrauma doesn't like "big" audio files. Especially if you're playing in multi
     - `./ffmpeg.exe -y -i out.ogg -c:a libvorbis -ab 32k -ar 11025 radio-out.ogg`
         - It will generate new **radio-out.ogg**, use that instead of **out.ogg**
 
-Editing config files
+## Making mod
+1. Place your audio files into **RIMMR Example Addon**. It's highly recommended to use our current mod structure as it should be quite easy to navigate.
+    - Example: I have audio file for cassette player **Submarines.ogg**. So I place it inside of `../LocalMods/RIMMR Example Addon/audio/cassette/`
+2. Navigate to `../RIMMR Example Addon/config/cassette/`
+3. Duplicate **Submarines.xml** file
+4. Rename duplicate to whatever you want (I will be reffering to this file as **Submarines-duplicate.xml**). It's recommended to use same name as you use on your audio file.
+    - After renaming it still **NEEDS TO BE .xml** file
+5. Open **Submarines-duplicate.xml** in your preffered text editor
