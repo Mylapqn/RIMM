@@ -4,6 +4,8 @@ This guide should teach you how you can create custom music addon for RIMM.
 Guide was written on Windows 11. Therefore if you are using different OS you might need to make some adjustments according to your OS.
 Also this example will only demonstrate how to make cassette player addon, but same process can be applied to every other instrument.
 
+**Just note that it's my first time making something like this in very limited time span, so if you're having any kind of issues, please open discussion thread on RIMM Reworked workshop page in steam. I will try my best to help you there. Thanks**
+
 ## Preparations:
 Here is list of things you should do before you start working:
 * Install [Barotrauma](https://store.steampowered.com/app/602960/Barotrauma/)
@@ -90,12 +92,32 @@ We are working inside **Submarines-duplicate.xml**
         - same rules apply as before
         - Higly recommended to use following template `PREFIX-RIMM-INSTRUMENT-SONG-NameOfSong`
             - SONG - we use it for identification that this is virtual item
-    - Once have your uniquie ID locate `identifiers="example_addon-rimm-cassette-player-song-submarines"` and replace `example_addon-rimm-cassette-player-song-submarines` with your ID.
+    - Once have your uniquie ID locate `identifiers="example_addon-rimm-cassette-player-song-submarines"` and replace `example_addon-rimm-cassette-player-song-submarines` with your that ID.
 10. Change audio path
     - Locate `file="%ModDir%/audio/cassette/Submarines.ogg"` and change `audio/cassette/Submarines.ogg` to your audio file.
 
 ## Finishing & Publishing
-1.
-2.
-3.
+Now that you have your config files done. All we need is to tell the game where those configs can be found and publish mod.
+1. Navigate to ../RIMMR Example Addon/
+2. Find **files.xml** and open it
+    - (Optional) Change Name - This reflects how your mod will be presented in-game
+        - You can also change altnames
+    - Inside `<contentpackage></contentpackage>` Write `<Item file="%ModDir%/PATHTOYOURFILE.xml" />`
+        - Example: `<Item file="%ModDir%/config/cassette/Submarines.xml" />`
+    - Delete Item paths to example configs.
+        - If you don't do so then there is chance someone might not do that as well and then there will mod conflicts issues.
+3. Delete all provided Example files and configs
+    - If you don't do so then there is chance someone might not do that as well and then there will mod conflicts issues.
+4. Open your game
+    - You should see your mod in MODS loader. Load it.
+    - Open Submarine editor
+    - Load any sub
+    - Place your items inside and test them if they are working correctly
+5. Publish/Update - ingame
+    - MAIN MENU -> MODS -> PUBLISH
+        - Select your mod
+        - Fill info you need, upload picture, etc...
+        - (Optional) Change visibility to Private
+            - First release, just to see if everything goes okay~ You can change visibility later on mod page.
+        - Hit publish
 
