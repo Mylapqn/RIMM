@@ -33,7 +33,7 @@ Barotrauma doesn't like "big" audio files. Especially if you're playing in multi
     - replace **example.ogg** with name of your audio file
 6. Inside folder you should now have new file **out.ogg**
 7. (Optional) For cassette player music run another command
-    `./ffmpeg.exe -y -i out.ogg -c:a libvorbis -ab 32k -ar 11025 radio-.ogg`
+    - `./ffmpeg.exe -y -i out.ogg -c:a libvorbis -ab 32k -ar 11025 radio-.ogg`
     - It will generate new **radio-.ogg**, use that instead of **out.ogg**
 
 
