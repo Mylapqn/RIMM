@@ -60,18 +60,42 @@ We are working inside **Submarines-duplicate.xml**
 2. (Optional) Item description
     - Locate `description="From: The Lumineers"` and replace **From: The Lumineers** with whatever you want
         - We are using this part to give original authors credits
-3. Changind identifier - THIS MUST BE UNIQUE!!
-    - Locate `identifier="EXAMPLE_ADDON-RIMM-cassette-player-Submarines"` and **replace EXAMPLE_ADDON-RIMM-cassette-player-Submarines** with unique ID
+3. Changing identifier - THIS MUST BE UNIQUE!!
+    - Locate `identifier="EXAMPLE_ADDON-RIMM-cassette-player-Submarines"` and replace `EXAMPLE_ADDON-RIMM-cassette-player-Submarines` with unique ID
         - Higly recommended to use following template `PREFIX-RIMM-INSTRUMENT-NameOfSong`
             - PREFIX - your unique ID, can be your nickname, short name of your mod, etc..
             - RIMM - Refers to RIMM Reworked.
             - INSTRUMENT - [accordion, cassette-player, chorus-book, guitar, harmonica] or any other custom made instruments
             - NameOfSong - Recommended to use same as you already filled into name
         - **identifier MUST BE UNIQUE**. If not unique you will be facing mod conflict issues.
-4. (Optional) Changing spawn probability
+4. (Optional) Changing tags
+    - Locate `Tags="smallitem,cassette-playernotes"` and change `cassette-playernotes` [accordionnotes, cassette-playernotes, chorus-booknotes, guitarnotes, harmonicanotes]
+        - You can add tag `musicnotes` if you want your item storable inside our **Sheet folders**
+5. (Optional) Changing spawn probability
     - Locate `PreferredContainer`. You can edit spawn chances there. Reffer to [Barotrauma modding guide](https://regalis11.github.io/BaroModDoc/ContentTypes/Item.html) for more info.
-5. (Optional) Changing prices
+6. (Optional) Changing prices
     - Locate `Price` and change `baseprice`. For any additional info reffer to [Barotrauma modding guide](https://regalis11.github.io/BaroModDoc/ContentTypes/Item.html)
-6. (Optional) Inventory Icon
-    - 
+7. (Optional) Changing Inventory Icon & Sprite
+    - locate `InventoryIcon texture="%ModDir:2728646394%/graphics/CassetteAtlas.png"`
+        - If you don't want to use default mod texure replace `:2728646394%/graphics/CassetteAtlas.png` with path to your icon file.
+            - file should be png
+            - you will need to adjust `sourcerect=` and `origin=`
+        - If you did any changes to `InventoryIcon` make sure to duplicate your changes to `Sprite` right bellow as well.
+8. (Optional) Changing name of "Virtual" item
+    - Locate `name="Song: Surbmarine"` and change it to whatever you want
+        - We use `Song` as identifier that it's virtual item, but you don't have to.
+        - Players will never really interact with this item directly so it doesn't matter what it's named
+9. Changing identifier of virtual item
+    - locate `identifier="example_addon-rimm-cassette-player-song-submarines"` and replace `example_addon-rimm-cassette-player-song-submariness` with unique ID
+        - same rules apply as before
+        - Higly recommended to use following template `PREFIX-RIMM-INSTRUMENT-SONG-NameOfSong`
+            - SONG - we use it for identification that this is virtual item
+    - Once have your uniquie ID locate `identifiers="example_addon-rimm-cassette-player-song-submarines"` and replace `example_addon-rimm-cassette-player-song-submarines` with your ID.
+10. Change audio path
+    - Locate `file="%ModDir%/audio/cassette/Submarines.ogg"` and change `audio/cassette/Submarines.ogg` to your audio file.
+
+## Finishing & Publishing
+1.
+2.
+3.
 
