@@ -4,13 +4,13 @@ This guide should teach you how you can create custom music addon for RIMM.
 
 ## Preparations:
 Here is list of things you should do before you start working:
-    * Install [Barotrauma](https://store.steampowered.com/app/602960/Barotrauma/)
-    * Subscribe to [RIMM Reworked on steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2728646394)
-    * Download [ffmpeg](https://ffmpeg.org/)
-    * Have your audio files ready.
+* Install [Barotrauma](https://store.steampowered.com/app/602960/Barotrauma/)
+* Subscribe to [RIMM Reworked on steam](https://steamcommunity.com/sharedfiles/filedetails/?id=2728646394)
+* Download [ffmpeg](https://ffmpeg.org/)
+* Have your audio files ready.
 
 Optional:
-   * Install [notepad++](https://notepad-plus-plus.org/) or something similar (VisualStudio Code, Atom, etc..)
+* Install [notepad++](https://notepad-plus-plus.org/) or something similar (VisualStudio Code, Atom, etc..)
 
 ## Cloning Repository
 1. Head to [RIMM GITHUB](https://github.com/Mylapqn/RIMM/tree/main)
