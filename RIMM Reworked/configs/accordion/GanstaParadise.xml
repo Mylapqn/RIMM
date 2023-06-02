@@ -3,6 +3,7 @@
   <Item name="(Accordion) Gangsta's Paradise"
         description="By Coolio"
         identifier="accordion-gangsta-paradise"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

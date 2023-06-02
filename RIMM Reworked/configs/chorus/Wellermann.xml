@@ -3,6 +3,7 @@
     <Item   name="(Chorus Book) Wellermann"
             description="By The Longest Johns"
             identifier="chorus-book-wellermann"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,chorus-booknotes,musicnotes"

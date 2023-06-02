@@ -3,6 +3,7 @@
     <Item   name="(Harmonica) The Entertainer"
             description="By Scott Joplin"
             identifier="harmonica-entertainer"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,harmonicanotes,musicnotes"
@@ -76,7 +77,8 @@
     <Item   name="Song: The Entertainer"
             identifier="rimm-harmonica-song-entertainer"
             Tags="song"
-            category="Misc">
+            category="Misc"
+            hideinmenus="true">
 
         <Sprite texture="Content/Items/Electricity/signalcomp.png"
                 depth="0.8"

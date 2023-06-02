@@ -2,6 +2,7 @@
 <Override>
     <Item   name=""
             identifier="guitar"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             Tags="bigitem, guitar"
             scale="0.5"

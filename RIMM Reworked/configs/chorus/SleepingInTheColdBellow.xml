@@ -3,6 +3,7 @@
     <Item   name="(Chorus Book) Sleeping in The Cold Below"
             description="From Warframe"
             identifier="chorus-book-sleeping-in-the-cold-below"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,chorus-booknotes,musicnotes"

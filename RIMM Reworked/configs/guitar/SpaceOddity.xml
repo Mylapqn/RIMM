@@ -3,6 +3,7 @@
     <Item   name="(Guitar) Space Oddity"
             description="By David Bowie"
             identifier="guitar-space-oddity"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"

@@ -3,6 +3,7 @@
     <Item   name="(Harmonica) Cruel Angel's Thesis"
             description="From Neon Genesis Evangelion"
             identifier="harmonica-cruel-angel-thesis"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,harmonicanotes,musicnotes"

@@ -3,6 +3,7 @@
     <Item   name="(Cassette) Bandit Radio"
             description="From S.T.A.L.K.E.R.: Clear Sky"
             identifier="cassette-player-bandit-radio"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="6"
             Tags="smallitem,cassette-playernotes"

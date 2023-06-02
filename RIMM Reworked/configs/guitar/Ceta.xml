@@ -3,6 +3,7 @@
     <Item   name="(Guitar) Ceta"
             description="From RimWorld"
             identifier="guitar-ceta"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"

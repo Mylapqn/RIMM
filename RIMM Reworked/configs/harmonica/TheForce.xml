@@ -3,6 +3,7 @@
     <Item   name="(Harmonica) The Force" 
             description="From Star Wars" 
             identifier="harmonica-the-force" 
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc" 
             maxstacksize="1" 
             Tags="smallitem,harmonicanotes,musicnotes" 

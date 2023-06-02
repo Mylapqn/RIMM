@@ -3,6 +3,7 @@
   <Item name="Music sheet folder"
         description="A folder for storing music sheets."
         identifier="rimm-musicfolder"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         Tags="smallitem, musicfolder, mobilecontainer"
         showcontentsintooltip="true"

@@ -3,6 +3,7 @@
   <Item name="(Accordion) Song for Denise"
         description="From Piano Fantasia"
         identifier="accordion-song-for-denise"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

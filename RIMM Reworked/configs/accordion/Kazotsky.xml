@@ -3,6 +3,7 @@
   <Item name="(Accordion) Kazotsky"
         description="By Unknown"
         identifier="accordion-kazotsky"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

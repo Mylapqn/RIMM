@@ -3,6 +3,7 @@
     <Item   name="(Guitar) Toss A Coin To Your Witcher"
             description="From The Witcher"
             identifier="guitar-toss-a-coin-to-your-witcher"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"

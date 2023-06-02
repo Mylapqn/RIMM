@@ -3,6 +3,7 @@
   <Item name="(Accordion) Amusement Park"
         description="From Nier: Automata"
         identifier="accordion-amusement-park"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

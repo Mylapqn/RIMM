@@ -3,6 +3,7 @@
     <Item   name="(Guitar) Legend of Korra"
             description="From Legend Of Korra"
             identifier="guitar-legend-of-korra"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"

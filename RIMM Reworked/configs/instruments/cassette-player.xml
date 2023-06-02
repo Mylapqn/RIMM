@@ -3,6 +3,7 @@
   <Item name="Cassette Player"
         description="An old cassette player for magnetic tapes."
         identifier="cassette-player"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         Tags="smallitem, cassette-player"
         scale="0.5"

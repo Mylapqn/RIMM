@@ -3,6 +3,7 @@
     <Item   name="(Chorus Book) Hanging Johnny"
             description="By Colm McGuinness"
             identifier="chorus-book-hanging-johnny"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,chorus-booknotes,musicnotes"

@@ -3,6 +3,7 @@
     <Item   name="(Guitar) Meet the Engineer"
             description="From Team Fortress 2"
             identifier="guitar-meet-the-engineer"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"

@@ -3,6 +3,7 @@
   <Item name="(Accordion) No Time for Caution"
         description="From Interstellar"
         identifier="accordion-no-time-for-caution"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

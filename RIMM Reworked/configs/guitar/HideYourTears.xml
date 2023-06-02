@@ -3,6 +3,7 @@
     <Item   name="(Guitar) Hide Your Tears"
             description="From Dexter"
             identifier="guitar-hide-your-tears"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"

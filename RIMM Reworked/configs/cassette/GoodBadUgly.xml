@@ -3,6 +3,7 @@
     <Item   name="(Cassette) The Good, The Bad and The Ugly"
             description="From The Good, The Bad and The Ugly"
             identifier="cassette-player-good-bad-ugly"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="6"
             Tags="smallitem,cassette-playernotes"

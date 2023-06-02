@@ -3,6 +3,7 @@
     <Item   name="(Chorus Book) Ievan Polkka"
             description="By Loituma"
             identifier="chorus-book-ievan-polkka"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,chorus-booknotes,musicnotes"

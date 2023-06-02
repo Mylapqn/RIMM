@@ -3,6 +3,7 @@
     <Item   name="(Chorus Book) Space Oddity"
             description="By David Bowie"
             identifier="chorus-book-space-oddity"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,chorus-booknotes,musicnotes"

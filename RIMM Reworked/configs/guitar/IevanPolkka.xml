@@ -3,6 +3,7 @@
     <Item   name="(Guitar) Ievan Polkka"
             description="By Loituma"
             identifier="guitar-ievan-polkka"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"

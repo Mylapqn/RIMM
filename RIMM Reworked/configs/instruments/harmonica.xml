@@ -2,6 +2,7 @@
 <Override>
     <Item   name="" 
             identifier="harmonica" 
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc" 
             Tags="smallitem, harmonica" 
             scale="0.5" 

@@ -3,6 +3,7 @@
     <Item   name="(Chorus Book) We All Lift Together"
             description="From Warframe"
             identifier="chorus-book-we-all-lift-together"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,chorus-booknotes,musicnotes"

@@ -3,6 +3,7 @@
     <Item   name="(Cassette) Space Oddity"
             description="By David Bowie"
             identifier="cassette-player-oddity"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="6"
             Tags="smallitem,cassette-playernotes"

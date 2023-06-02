@@ -3,6 +3,7 @@
     <Item   name="Chorus Book"
             description="A binder containing song lyrics."
             identifier="garnet-chorusbook"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             Tags="smallitem, chorus-book"
             scale="0.5"

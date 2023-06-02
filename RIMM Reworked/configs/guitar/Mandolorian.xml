@@ -3,6 +3,7 @@
     <Item   name="(Guitar) The Mandalorian"
             description="From The Mandalorian"
             identifier="guitar-the-mandalorian"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"

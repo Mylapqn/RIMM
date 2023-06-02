@@ -3,6 +3,7 @@
   <Item name="(Accordion) Kass' theme"
         description="From The Legend of Zelda: BOTW"
         identifier="accordion-kass-theme"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

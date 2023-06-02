@@ -3,6 +3,7 @@
     <Item   name="(Harmonica) Korobushka"
             description="By Sergej Graf"
             identifier="harmonica-korobushka"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,harmonicanotes,musicnotes"

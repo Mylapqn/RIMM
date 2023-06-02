@@ -3,6 +3,7 @@
     <Item   name="(Guitar) Inspector Gadget"
             description="From Inspector Gadget"
             identifier="guitar-inspector-gadget"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"

@@ -3,6 +3,7 @@
     <Item   name="(Cassette) Any Old Thing"
             description="By Swing Republic"
             identifier="cassette-any-old-thing"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="6"
             Tags="smallitem,cassette-playernotes"

@@ -3,6 +3,7 @@
   <Item name="(Accordion) Mission: Impossible"
         description="From Mission: Impossible"
         identifier="accordion-mission-impossible"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

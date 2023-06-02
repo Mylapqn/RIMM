@@ -3,6 +3,7 @@
   <Item name="(Accordion) Gate of Steiner"
         description="From Steins; Gate"
         identifier="accordion-gate-of-steiner"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

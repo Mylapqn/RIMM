@@ -3,6 +3,7 @@
   <Item name="(Accordion) Imperial March"
         description="From Star Wars"
         identifier="accordion-imperial-march"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

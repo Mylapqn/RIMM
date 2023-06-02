@@ -3,6 +3,7 @@
   <Item name="(Accordion) Dogsong"
         description="From Undertale"
         identifier="accordion-dogsong"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"
@@ -78,7 +79,8 @@
   <Item name="Song: Dogsong"
         identifier="rimm-accordion-song-dogsong"
         Tags="song"
-        category="Misc">
+        category="Misc"
+        hideinmenus="true">
 
     <Sprite texture="Content/Items/Electricity/signalcomp.png"
             depth="0.8"

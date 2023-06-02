@@ -3,6 +3,7 @@
     <Item   name="(Cassette) Yellow Submarine"
             description="By The Beatles"
             identifier="cassette-player-yellow-submarine"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="6"
             Tags="smallitem,cassette-playernotes"

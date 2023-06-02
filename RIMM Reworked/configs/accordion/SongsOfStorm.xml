@@ -3,6 +3,7 @@
   <Item name="(Accordion) Song of Storms"
         description="From The Legend of Zelda: BOTW"
         identifier="accordion-song-of-storms"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

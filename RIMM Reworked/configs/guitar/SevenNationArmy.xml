@@ -3,6 +3,7 @@
     <Item   name="(Guitar) Seven Nation Army"
             description="By The White Stripes"
             identifier="guitar-seven-nation-army"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"

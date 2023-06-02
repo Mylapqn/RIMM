@@ -3,6 +3,7 @@
     <Item   name="(Harmonica) Vabank"
             description="By Unknown"
             identifier="harmonica-vabank"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,harmonicanotes,musicnotes"

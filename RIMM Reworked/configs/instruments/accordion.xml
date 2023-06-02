@@ -2,6 +2,7 @@
 <Override>
     <Item   name=""
             identifier="accordion"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             Tags="smallitem, accordion"
             scale="0.5"

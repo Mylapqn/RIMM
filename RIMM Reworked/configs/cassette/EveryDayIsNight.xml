@@ -3,6 +3,7 @@
     <Item   name="(Cassette) Every Day Is Night"
             description="From VA-11-Hall-A"
             identifier="cassette-player-every-day-is-night"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="6"
             Tags="smallitem,cassette-playernotes"

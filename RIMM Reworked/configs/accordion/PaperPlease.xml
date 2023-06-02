@@ -3,6 +3,7 @@
   <Item name="(Accordion) Papers, Please"
         description="From Papers, Please"
         identifier="accordion-papers-please"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

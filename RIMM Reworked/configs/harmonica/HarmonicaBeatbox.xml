@@ -3,6 +3,7 @@
     <Item   name="(Harmonica) Harmonica Beatbox"
             description="By Unknown"
             identifier="harmonica-harmonica-beatbox"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,harmonicanotes,musicnotes"

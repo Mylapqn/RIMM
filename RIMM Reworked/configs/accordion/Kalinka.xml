@@ -3,6 +3,7 @@
   <Item name="(Accordion) Kalinka"
         description="By theonewhoCheekiBreeki"
         identifier="accordion-kalinka"
+        subcategory="[Music mod] RIMM Reworked"
         category="Misc"
         maxstacksize="1"
         Tags="smallitem,accordionnotes,musicnotes"

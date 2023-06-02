@@ -3,6 +3,7 @@
     <Item   name="(Harmonica) Jurassic Park"
             description="From Jurassic Park"
             identifier="harmonica-jurassic-park"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,harmonicanotes,musicnotes"

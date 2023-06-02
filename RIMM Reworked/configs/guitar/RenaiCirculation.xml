@@ -3,6 +3,7 @@
     <Item   name="(Guitar) Renai Circulation"
             description="From Bakemonogatari"
             identifier="guitar-renai-circulation"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"

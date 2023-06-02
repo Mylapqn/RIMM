@@ -3,6 +3,7 @@
     <Item   name="(Cassette) Let's Dance, Boys!"
             description="From Bayonetta"
             identifier="cassette-player-lets-dance-boys"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="6"
             Tags="smallitem,cassette-playernotes"

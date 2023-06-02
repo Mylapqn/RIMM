@@ -3,6 +3,7 @@
     <Item   name="(Cassette) NASA: Europa"
             description="[Rare] By NASA"
             identifier="cassette-nasa-europa"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="6"
             Tags="smallitem,cassette-playernotes"

@@ -3,6 +3,7 @@
     <Item   name="(Guitar) The Last of Us"
             description="From The Last of Us"
             identifier="guitar-the-last-of-us"
+            subcategory="[Music mod] RIMM Reworked"
             category="Misc"
             maxstacksize="1"
             Tags="smallitem,guitarnotes,musicnotes"
