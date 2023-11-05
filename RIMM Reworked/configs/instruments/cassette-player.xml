@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <!--Mentions the placeable aspect in the description-->
-  <Item name="Cassette Player" description="An old cassette player for magnetic tapes. Can be placed on walls." identifier="cassette-player" subcategory="[Music mod] RIMM Reworked" category="Misc" Tags="smallitem, cassette-player" scale="0.5" price="300" impactsoundtag="impact_metal_light">
+  <Item name="Cassette Player" description="An old cassette player for magnetic tapes." identifier="cassette-player" subcategory="[Music mod] RIMM Reworked" category="Misc" Tags="smallitem, cassette-player" scale="0.5" price="300" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03" />
     <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03" />
     <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03" />
@@ -17,61 +16,19 @@
       <Item identifier="fpgacircuit" />
     </Deconstruct>
     <Upgrade gameversion="0.15.13.0" scale="0.5" />
-    <InventoryIcon texture="%ModDir%/Graphics/CassettePlayer.png" sourcerect="0,0,100,64" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Graphics/CassettePlayer.png" sourcerect="0,0,100,64" depth="0.55" origin="0.5,0.5" />
-	<!-- This line is what lets the item have a different sprite when attached. I'm not good at spriting, so feel free to replace this... I'll help with what I can if you want !-->
-	<ContainedSprite texture="%ModDir%/Graphics/CassettePlayer.png" usewhenattached="true" sourcerect="0,0,100,64" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir%/graphics/CassettePlayer.png" sourcerect="0,0,100,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/graphics/CassettePlayer.png" sourcerect="0,0,100,64" depth="0.55" origin="0.5,0.5" />
     <Body width="100" height="63" />
-    <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetachWrench" PickingTime="3.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
-	  <RequiredItem items="wrench" type="Equipped" />
-	  <!-- If you would rather make the attachable version its own item, you can instead make a copy of this file, only remove these two StattusEffects so it only plays music while attached and ON-->
-	  <StatusEffect type="OnActive" targettype="Contained">
+    <Holdable slots="RightHand,LeftHand,Any" msg="ItemMsgPickUpSelect" handle1="0,40" holdangle="90">
+      <StatusEffect type="OnActive" targettype="Contained">
         <Use />
       </StatusEffect>
       <StatusEffect type="OnNotContained" targettype="Contained">
-	    <Conditional attached="eq false" targetContainer="true"/>
         <Use />
       </StatusEffect>
     </Holdable>
-	<!--When the cassette player is attached, this light is what reacts when the cassette player is switched ON or OFF.
-	It is set to turn itself ON when detached. If you'd prefer there not being a light, you could make the light's range 0 so it remains invisible-->
-	<LightComponent canbeselected="false" lightcolor="255,0,0,100" alphablend="true" castshadows="false" PulseAmount="0.75" PulseFrequency="0.3" range="20">
-      <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="301,963,42,57" origin="0.5,0.5" alpha="1.0" />
-      <StatusEffect type="OnContained" target="This" IsActive="false" comparison="And">
-        <Conditional targetitemcomponent="Holdable" IsActive="eq false"/>
-		<Conditional targetitemcomponent="Holdable" attached="eq false"/>
-      </StatusEffect>
-	  <!--Groovy.-->
-	  <StatusEffect type="OnActive" targettype="Contained">
-		<Use />
-      </StatusEffect>
-    </LightComponent>
-	<!--These two light components are stricly for cosmetic purposes, feel free to tweak or remove them to your liking-->
-	<LightComponent canbeselected="false" lightcolor="0,255,0,100" alphablend="true" castshadows="false" PulseAmount="0.75" PulseFrequency="0.6" range="20">
-      <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="301,963,42,57" origin="0.5,0.5" alpha="1.0" />
-     <StatusEffect type="OnContained" target="This" IsActive="false" comparison="And">
-        <Conditional targetitemcomponent="Holdable" IsActive="eq false" />
-		<Conditional targetitemcomponent="Holdable" attached="eq false"/>
-      </StatusEffect>
-    </LightComponent>
-	<LightComponent canbeselected="false" lightcolor="0,0,255,100" alphablend="true" castshadows="false" PulseAmount="0.75" PulseFrequency="0.4" range="20">
-      <Sprite texture="Content/Items/Electricity/signalcomp.png" sourcerect="301,963,42,57" origin="0.5,0.5" alpha="1.0" />
-      <StatusEffect type="OnContained" target="This" IsActive="false" comparison="And">
-        <Conditional targetitemcomponent="Holdable" IsActive="eq false" />
-		<Conditional targetitemcomponent="Holdable" attached="eq false"/>
-      </StatusEffect>
-    </LightComponent>
-	<!--Standard connection panel taken straight from the alarm buzzer-->
-    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
-      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
-      <RequiredItem items="screwdriver" type="Equipped" />
-      <input name="toggle" displayname="connection.togglestate" />
-      <input name="set_state" displayname="connection.setstate" />
-    </ConnectionPanel>
-    <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="6" itempos="0,0" iteminterval="0,0" itemrotation="0" canbeselected="true" containedspritedepth="0.79">
-      <!--Added this line so the tape displays properly when you click on the attached cassette player-->
-	  <GuiFrame relativesize="0.15,0.2" anchor="Center" style="ItemUI" />
-	  <Containable items="cassette-playernotes" />
+    <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="6" itempos="0,0" iteminterval="0,0" itemrotation="0" canbeselected="false" containedspritedepth="0.79">
+      <Containable items="cassette-playernotes" />
     </ItemContainer>
   </Item>
 </Items>
