@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
   <!--Mentions the placeable aspect in the description. Now also has the IsShootable attribute, so it placed with left click instead of the Use key (E)-->
   <Item name="Cassette Player" description="An old cassette player for magnetic tapes. Can be placed on walls." identifier="cassette-player" subcategory="[Music mod] RIMM Reworked" category="Misc" 
