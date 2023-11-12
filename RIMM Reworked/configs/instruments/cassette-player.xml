@@ -1,93 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
     <!--Mentions the placeable aspect in the description. Now also has the IsShootable attribute, so it placed with left click instead of the Use key (E)-->
-    <Item   name="Cassette Player"
-            description="An old cassette player for magnetic tapes. Can be placed on walls."
-            identifier="cassette-player"
-            subcategory="[Music mod] RIMM Reworked"
-            category="Misc" 
-            Tags="smallitem, cassette-player"
-            scale="0.5"
-            price="300"
-            impactsoundtag="impact_metal_light"
-            isshootable="true">
+    <Item name="Cassette Player" description="An old cassette player for magnetic tapes. Can be placed on walls." identifier="cassette-player" subcategory="[Music mod] RIMM Reworked" category="Misc" Tags="smallitem, cassette-player" scale="0.5" price="300" impactsoundtag="impact_metal_light" isshootable="true">
 
-        <PreferredContainer primary="abandonedcrewcab"
-                            spawnprobability="0.03" />
-        <PreferredContainer secondary="wreckstoragecab"
-                            spawnprobability="0.03" />
-        <PreferredContainer primary="outpostcrewcabinet"
-                            minamount="0"
-                            maxamount="1"
-                            spawnprobability="0.03" />
+        <PreferredContainer primary="abandonedcrewcab" spawnprobability="0.03"/>
+        <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.03"/>
+        <PreferredContainer primary="outpostcrewcabinet" minamount="0" maxamount="1" spawnprobability="0.03"/>
 
         <Price baseprice="300" minavailable="1">
-            <Price  storeidentifier="merchantoutpost"
-                    multiplier="1"
-                    minavailable="1" />
-            <Price  storeidentifier="merchantcity"
-                    multiplier="1"
-                    minavailable="2" />
-            <Price  storeidentifier="merchantresearch"
-                    multiplier="1"
-                    sold="false" />
-            <Price  storeidentifier="merchantmilitary"
-                    multiplier="1"
-                    sold="false" />
-            <Price  storeidentifier="merchantmine"
-                    multiplier="1"
-                    sold="false" />
+            <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1"/>
+            <Price storeidentifier="merchantcity" multiplier="1" minavailable="2"/>
+            <Price storeidentifier="merchantresearch" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmilitary" multiplier="1" sold="false"/>
+            <Price storeidentifier="merchantmine" multiplier="1" sold="false"/>
         </Price>
 
         <Deconstruct time="25">
-        <Item identifier="plastic" amount="2" />
-        <Item identifier="fpgacircuit" />
+            <Item identifier="plastic" amount="2"/>
+            <Item identifier="fpgacircuit"/>
         </Deconstruct>
 
-        <Upgrade gameversion="0.15.13.0" scale="0.5" />
-        <InventoryIcon  texture="%ModDir%/Graphics/CassettePlayer.png"
-                        sourcerect="0,0,100,64"
-                        origin="0.5,0.5" />
-        <Sprite texture="%ModDir%/Graphics/CassettePlayer.png"
-                sourcerect="0,0,100,64"
-                depth="0.55"
-                origin="0.5,0.5" />
+        <Upgrade gameversion="0.15.13.0" scale="0.5"/>
+        <InventoryIcon texture="%ModDir%/Graphics/CassettePlayer.png" sourcerect="0,0,100,64" origin="0.5,0.5"/>
+        <Sprite texture="%ModDir%/Graphics/CassettePlayer.png" sourcerect="0,0,100,64" depth="0.55" origin="0.5,0.5"/>
 
-        <Body width="100" height="63" />
+        <Body width="100" height="63"/>
         <!--Edited some basic parameters here-->
-        <Holdable   selectkey="Select"
-                    pickkey="Use"
-                    slots="Any,RightHand,LeftHand"
-                    msg="ItemMsgDetachWrench"
-                    PickingTime="3.0" 
-                    aimpos="65,-10"
-                    AimAngle="45"
-                    handle1="0,40"
-                    holdangle="90"
-                    attachable="true"
-                    aimable="true">
-            <RequiredItem items="wrench" type="Equipped" />
-            <StatusEffect type="OnActive" targettype="Contained">
-                <Use />
-            </StatusEffect>
-            <StatusEffect type="OnNotContained" targettype="Contained">
-                <Conditional attached="eq false" targetContainer="true"/>
-                <Use />
-            </StatusEffect>
-        </Holdable>
 
         <!--When the cassette player is attached, this light is what reacts when the cassette player is switched ON or OFF.-->
-        <LightComponent canbeselected="false"
-                        lightcolor="100,100,0,40"
-                        alphablend="false"
-                        castshadows="false"
-                        range="20" 
-                        Flicker="0.6"
-                        FlickerSpeed="0.4">
-            <Sprite texture="%ModDir%/Graphics/CassettePlayer.png"
-                    sourcerect="22,17,56,9"
-                    origin="0.5,1.8"
-                    alpha="1.0" />
+        <LightComponent canbeselected="false" lightcolor="100,100,0,40" alphablend="false" castshadows="false" range="20" Flicker="0.6" FlickerSpeed="0.4">
+            <Sprite texture="%ModDir%/Graphics/CassettePlayer.png" sourcerect="22,17,56,9" origin="0.5,1.8" alpha="1.0"/>
             <StatusEffect type="OnContained" target="This" IsActive="false" comparison="And">
                 <Conditional targetitemcomponent="Holdable" attached="eq false"/>
                 <Conditional targetitemcomponent="Holdable" IsActive="eq false"/>
@@ -98,34 +40,29 @@
             </StatusEffect>
         </LightComponent>
 
+        <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" slotsperrow="6" itempos="0,0" iteminterval="0,0" itemrotation="0" canbeselected="true" containedspritedepth="0.79" msg="ItemMsgInteractSelect">
+            <!--Added this line so the tape displays properly when you click on the attached cassette player-->
+            <GuiFrame relativesize="0.15,0.2" anchor="Center" style="ItemUI"/>
+            <Containable items="cassette-playernotes"/>
+        </ItemContainer>
+
         <!--Standard connection panel taken straight from the alarm buzzer-->
-        <ConnectionPanel    selectkey="Action"
-                            canbeselected="true"
-                            msg="ItemMsgRewireScrewdriver"
-                            hudpriority="10">
-            <GuiFrame   relativesize="0.2,0.32"
-                        minsize="400,350"
-                        maxsize="480,420"
-                        anchor="Center"
-                        style="ConnectionPanel" />
-            <RequiredItem items="screwdriver" type="Equipped" />
-            <input name="toggle" displayname="connection.togglestate" />
-            <input name="set_state" displayname="connection.setstate" />
+        <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+            <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel"/>
+            <RequiredItem items="screwdriver" type="Equipped"/>
+            <input name="toggle" displayname="connection.togglestate"/>
+            <input name="set_state" displayname="connection.setstate"/>
         </ConnectionPanel>
 
-        <ItemContainer  hideitems="true"
-                        drawinventory="true"
-                        capacity="1"
-                        maxstacksize="1"
-                        slotsperrow="6"
-                        itempos="0,0"
-                        iteminterval="0,0"
-                        itemrotation="0"
-                        canbeselected="true"
-                        containedspritedepth="0.79">
-            <!--Added this line so the tape displays properly when you click on the attached cassette player-->
-            <GuiFrame relativesize="0.15,0.2" anchor="Center" style="ItemUI" />
-            <Containable items="cassette-playernotes" />
-        </ItemContainer>
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" aimpos="65,-10" AimAngle="45" handle1="0,40" holdangle="90" attachable="true" aimable="true">
+            <requireditem items="wrench" type="Equipped"/>
+            <StatusEffect type="OnActive" targettype="Contained">
+                <Use />
+            </StatusEffect>
+            <StatusEffect type="OnNotContained" targettype="Contained">
+                <Conditional attached="eq false" targetContainer="true"/>
+                <Use />
+            </StatusEffect>
+        </Holdable>
     </Item>
 </Items>
