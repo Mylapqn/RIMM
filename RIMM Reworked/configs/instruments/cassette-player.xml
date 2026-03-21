@@ -16,9 +16,14 @@
         </Price>
 
         <Deconstruct time="25">
-            <Item identifier="plastic" amount="2"/>
+            <Item identifier="plastic" amount="1"/>
             <Item identifier="fpgacircuit"/>
         </Deconstruct>
+
+        <Fabricate suitablefabricators="fabricator" requiredtime="25">
+            <Item identifier="plastic" amount="2"/>
+            <Item identifier="fpgacircuit"/>
+        </Fabricate>
 
         <Upgrade gameversion="0.15.13.0" scale="0.5"/>
         <InventoryIcon texture="%ModDir%/Graphics/CassettePlayer.png" sourcerect="0,0,100,64" origin="0.5,0.5"/>
@@ -28,13 +33,18 @@
         <!--Edited some basic parameters here-->
 
         <!--When the cassette player is attached, this light is what reacts when the cassette player is switched ON or OFF.-->
-        <LightComponent canbeselected="false" lightcolor="100,100,0,40" alphablend="false" castshadows="false" range="20" Flicker="0.6" FlickerSpeed="0.4">
+        <LightComponent canbeselected="false" lightcolor="100,100,0,120" alphablend="false" castshadows="false" range="30" Flicker="0.6" FlickerSpeed="0.4">
             <Sprite texture="%ModDir%/Graphics/CassettePlayer.png" sourcerect="22,17,56,9" origin="0.5,1.8" alpha="1.0"/>
+            <!--Sets active to false if removed from wall-->
             <StatusEffect type="OnContained" target="This" IsActive="false" comparison="And">
                 <Conditional targetitemcomponent="Holdable" attached="eq false"/>
                 <Conditional targetitemcomponent="Holdable" IsActive="eq false"/>
             </StatusEffect>
-            <!--Groovy.-->
+            <!--Automatically sets active to true when first attached to wall-->
+            <StatusEffect type="OnUse" target="This" IsActive="true" comparison="And">
+                <Conditional targetitemcomponent="Holdable" attached="eq false"/>
+            </StatusEffect>
+            <!--If active, play the contained tape-->
             <StatusEffect type="OnActive" targettype="Contained">
                 <Use />
             </StatusEffect>
@@ -54,11 +64,13 @@
             <input name="set_state" displayname="connection.setstate"/>
         </ConnectionPanel>
 
-        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" aimpos="65,-10" AimAngle="45" handle1="0,40" holdangle="90" attachable="true" aimable="true">
+        <Holdable selectkey="Select" pickkey="Use" slots="Any,RightHand,LeftHand" msg="ItemMsgDetachWrench" PickingTime="2.0" aimpos="65,-10" AimAngle="45" handle1="0,40" holdangle="90" attachable="true" aimable="true">
             <requireditem items="wrench" type="Equipped"/>
+            <!-- Play contained tape when held in hand -->
             <StatusEffect type="OnActive" targettype="Contained">
                 <Use />
             </StatusEffect>
+            <!-- Play contained tape when dropped on ground -->
             <StatusEffect type="OnNotContained" targettype="Contained">
                 <Conditional attached="eq false" targetContainer="true"/>
                 <Use />
